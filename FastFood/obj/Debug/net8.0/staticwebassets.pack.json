@@ -1,0 +1,357 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Projects\\MVC\\FastFood\\FastFood\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\FastFood.bundle.scp.css",
+      "PackagePath": "staticwebassets\\FastFood.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\Projects\\MVC\\FastFood\\FastFood\\wwwroot\\Images\\Coupon\\12d66b54-26df-42b0-82ee-0262219c566a.jpg",
+      "PackagePath": "staticwebassets\\Images\\Coupon\\12d66b54-26df-42b0-82ee-0262219c566a.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\MVC\\FastFood\\FastFood\\wwwroot\\Images\\Coupon\\3b20a7df-5b47-47a5-9e60-4d9652dbc07d.jpeg",
+      "PackagePath": "staticwebassets\\Images\\Coupon\\3b20a7df-5b47-47a5-9e60-4d9652dbc07d.jpeg"
+    },
+    {
+      "Id": "D:\\Projects\\MVC\\FastFood\\FastFood\\wwwroot\\Images\\Item\\4cc31088-b62b-4e67-aebb-272daae9f75e.jpeg",
+      "PackagePath": "staticwebassets\\Images\\Item\\4cc31088-b62b-4e67-aebb-272daae9f75e.jpeg"
+    },
+    {
+      "Id": "D:\\Projects\\MVC\\FastFood\\FastFood\\wwwroot\\Images\\Item\\56711518-1b82-47b9-a96a-9060122a0e5f.jpg",
+      "PackagePath": "staticwebassets\\Images\\Item\\56711518-1b82-47b9-a96a-9060122a0e5f.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\MVC\\FastFood\\FastFood\\wwwroot\\Images\\Item\\805c0b79-8b68-4b0a-af28-2d9eb9f43d1b.jpg",
+      "PackagePath": "staticwebassets\\Images\\Item\\805c0b79-8b68-4b0a-af28-2d9eb9f43d1b.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\MVC\\FastFood\\FastFood\\wwwroot\\Images\\Item\\837b935c-26fd-433e-97da-b48ad6f2f001.jpeg",
+      "PackagePath": "staticwebassets\\Images\\Item\\837b935c-26fd-433e-97da-b48ad6f2f001.jpeg"
+    },
+    {
+      "Id": "D:\\Projects\\MVC\\FastFood\\FastFood\\wwwroot\\Images\\Item\\a1301e1e-95e9-4b7d-a431-dfa68be39110.jpeg",
+      "PackagePath": "staticwebassets\\Images\\Item\\a1301e1e-95e9-4b7d-a431-dfa68be39110.jpeg"
+    },
+    {
+      "Id": "D:\\Projects\\MVC\\FastFood\\FastFood\\wwwroot\\Images\\Item\\c7942b4f-d5d9-432e-8c2a-50d6307d4520.jpeg",
+      "PackagePath": "staticwebassets\\Images\\Item\\c7942b4f-d5d9-432e-8c2a-50d6307d4520.jpeg"
+    },
+    {
+      "Id": "D:\\Projects\\MVC\\FastFood\\FastFood\\wwwroot\\Images\\Item\\d438b2d1-7466-48ad-8617-cb50ca7d9ebf.jpeg",
+      "PackagePath": "staticwebassets\\Images\\Item\\d438b2d1-7466-48ad-8617-cb50ca7d9ebf.jpeg"
+    },
+    {
+      "Id": "D:\\Projects\\MVC\\FastFood\\FastFood\\wwwroot\\Images\\Item\\eb98d760-9507-4873-9c5c-3a32b6a4dd29.jpg",
+      "PackagePath": "staticwebassets\\Images\\Item\\eb98d760-9507-4873-9c5c-3a32b6a4dd29.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\MVC\\FastFood\\FastFood\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\Projects\\MVC\\FastFood\\FastFood\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\Projects\\MVC\\FastFood\\FastFood\\wwwroot\\js\\Category.js",
+      "PackagePath": "staticwebassets\\js\\Category.js"
+    },
+    {
+      "Id": "D:\\Projects\\MVC\\FastFood\\FastFood\\wwwroot\\js\\Item.js",
+      "PackagePath": "staticwebassets\\js\\Item.js"
+    },
+    {
+      "Id": "D:\\Projects\\MVC\\FastFood\\FastFood\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\Projects\\MVC\\FastFood\\FastFood\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\Projects\\MVC\\FastFood\\FastFood\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\Projects\\MVC\\FastFood\\FastFood\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\Projects\\MVC\\FastFood\\FastFood\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\Projects\\MVC\\FastFood\\FastFood\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\Projects\\MVC\\FastFood\\FastFood\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\Projects\\MVC\\FastFood\\FastFood\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Projects\\MVC\\FastFood\\FastFood\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Projects\\MVC\\FastFood\\FastFood\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Projects\\MVC\\FastFood\\FastFood\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\Projects\\MVC\\FastFood\\FastFood\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\Projects\\MVC\\FastFood\\FastFood\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\Projects\\MVC\\FastFood\\FastFood\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\Projects\\MVC\\FastFood\\FastFood\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\Projects\\MVC\\FastFood\\FastFood\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Projects\\MVC\\FastFood\\FastFood\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Projects\\MVC\\FastFood\\FastFood\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Projects\\MVC\\FastFood\\FastFood\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\Projects\\MVC\\FastFood\\FastFood\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\Projects\\MVC\\FastFood\\FastFood\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\Projects\\MVC\\FastFood\\FastFood\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\Projects\\MVC\\FastFood\\FastFood\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\Projects\\MVC\\FastFood\\FastFood\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Projects\\MVC\\FastFood\\FastFood\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Projects\\MVC\\FastFood\\FastFood\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Projects\\MVC\\FastFood\\FastFood\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\Projects\\MVC\\FastFood\\FastFood\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\Projects\\MVC\\FastFood\\FastFood\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Projects\\MVC\\FastFood\\FastFood\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\Projects\\MVC\\FastFood\\FastFood\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\Projects\\MVC\\FastFood\\FastFood\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Projects\\MVC\\FastFood\\FastFood\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Projects\\MVC\\FastFood\\FastFood\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Projects\\MVC\\FastFood\\FastFood\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\Projects\\MVC\\FastFood\\FastFood\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\Projects\\MVC\\FastFood\\FastFood\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\Projects\\MVC\\FastFood\\FastFood\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\Projects\\MVC\\FastFood\\FastFood\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\Projects\\MVC\\FastFood\\FastFood\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\Projects\\MVC\\FastFood\\FastFood\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\Projects\\MVC\\FastFood\\FastFood\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\Projects\\MVC\\FastFood\\FastFood\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\Projects\\MVC\\FastFood\\FastFood\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\Projects\\MVC\\FastFood\\FastFood\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\Projects\\MVC\\FastFood\\FastFood\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\Projects\\MVC\\FastFood\\FastFood\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Projects\\MVC\\FastFood\\FastFood\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\Projects\\MVC\\FastFood\\FastFood\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\Projects\\MVC\\FastFood\\FastFood\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\Projects\\MVC\\FastFood\\FastFood\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\Projects\\MVC\\FastFood\\FastFood\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\Projects\\MVC\\FastFood\\FastFood\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\Projects\\MVC\\FastFood\\FastFood\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\Projects\\MVC\\FastFood\\FastFood\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Projects\\MVC\\FastFood\\FastFood\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\Projects\\MVC\\FastFood\\FastFood\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\Projects\\MVC\\FastFood\\FastFood\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "D:\\Projects\\MVC\\FastFood\\FastFood\\wwwroot\\lib\\sweetalert2\\sweetalert2.all.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\sweetalert2.all.js"
+    },
+    {
+      "Id": "D:\\Projects\\MVC\\FastFood\\FastFood\\wwwroot\\lib\\sweetalert2\\sweetalert2.all.min.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\sweetalert2.all.min.js"
+    },
+    {
+      "Id": "D:\\Projects\\MVC\\FastFood\\FastFood\\wwwroot\\lib\\sweetalert2\\sweetalert2.css",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\sweetalert2.css"
+    },
+    {
+      "Id": "D:\\Projects\\MVC\\FastFood\\FastFood\\wwwroot\\lib\\sweetalert2\\sweetalert2.d.ts",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\sweetalert2.d.ts"
+    },
+    {
+      "Id": "D:\\Projects\\MVC\\FastFood\\FastFood\\wwwroot\\lib\\sweetalert2\\sweetalert2.esm.all.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\sweetalert2.esm.all.js"
+    },
+    {
+      "Id": "D:\\Projects\\MVC\\FastFood\\FastFood\\wwwroot\\lib\\sweetalert2\\sweetalert2.esm.all.min.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\sweetalert2.esm.all.min.js"
+    },
+    {
+      "Id": "D:\\Projects\\MVC\\FastFood\\FastFood\\wwwroot\\lib\\sweetalert2\\sweetalert2.esm.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\sweetalert2.esm.js"
+    },
+    {
+      "Id": "D:\\Projects\\MVC\\FastFood\\FastFood\\wwwroot\\lib\\sweetalert2\\sweetalert2.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\sweetalert2.esm.min.js"
+    },
+    {
+      "Id": "D:\\Projects\\MVC\\FastFood\\FastFood\\wwwroot\\lib\\sweetalert2\\sweetalert2.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\sweetalert2.js"
+    },
+    {
+      "Id": "D:\\Projects\\MVC\\FastFood\\FastFood\\wwwroot\\lib\\sweetalert2\\sweetalert2.min.css",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\sweetalert2.min.css"
+    },
+    {
+      "Id": "D:\\Projects\\MVC\\FastFood\\FastFood\\wwwroot\\lib\\sweetalert2\\sweetalert2.min.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\sweetalert2.min.js"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.FastFood.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.FastFood.props",
+      "PackagePath": "build\\FastFood.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.FastFood.props",
+      "PackagePath": "buildMultiTargeting\\FastFood.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.FastFood.props",
+      "PackagePath": "buildTransitive\\FastFood.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
