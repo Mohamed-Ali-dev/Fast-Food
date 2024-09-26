@@ -12,3 +12,4 @@ D:\Projects\MVC\FastFood\FastFood.Models\obj\Debug\net8.0\FastFood.Models.pdb
 D:\Projects\MVC\FastFood\FastFood.Models\obj\Debug\net8.0\ref\FastFood.Models.dll
 D:\Projects\MVC\FastFood\FastFood.Models\bin\Debug\net8.0\FastFood.Models.runtimeconfig.json
 D:\Projects\MVC\FastFood\FastFood.Models\obj\Debug\net8.0\FastFood.Models.genruntimeconfig.cache
+D:\Projects\MVC\FastFood\FastFood.Models\obj\Debug\net8.0\FastFood.Models.sourcelink.json

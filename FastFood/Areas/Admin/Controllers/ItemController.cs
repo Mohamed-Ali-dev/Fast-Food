@@ -56,7 +56,7 @@ namespace FastFood.Areas.Admin.Controllers
             return View(itemVM);
         }
         [HttpPost]
-        public async Task<IActionResult> Create(ItemVM itemVM, IFormFile file)
+        public async Task<IActionResult> Create(ItemVM itemVM, IFormFile? file)
         {
             if (ModelState.IsValid)
             {
@@ -68,7 +68,7 @@ namespace FastFood.Areas.Admin.Controllers
 
                 _unitOfWork.Item.Add(itemVM.Item);
                 _unitOfWork.Save();
-                return RedirectToAction("Index");
+                return RedirectToAction(nameof(Index));
             }
             return View(itemVM);
         }

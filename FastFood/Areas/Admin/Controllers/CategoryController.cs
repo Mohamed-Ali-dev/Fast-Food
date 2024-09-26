@@ -45,7 +45,7 @@ namespace FastFood.Areas.Admin.Controllers
             _unitOfWork.Category.Add(category);
             _unitOfWork.Save();
                 TempData["success"] = "Category created successfully";
-            return RedirectToAction("Index");
+            return RedirectToAction(nameof(Index));
             }
             return View(categoryVM);
 
@@ -81,7 +81,7 @@ namespace FastFood.Areas.Admin.Controllers
                     _unitOfWork.Category.Update(categoryVM);
                     _unitOfWork.Save();
                     TempData["success"] = "Category updated successfully";
-                    return RedirectToAction("Index");
+                    return RedirectToAction(nameof(Index));
                 }
             }
             return View(categoryVM);

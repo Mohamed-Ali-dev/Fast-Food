@@ -7,6 +7,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Remove="wwwroot\js\Coupon.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="wwwroot\js\Coupon.js" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="8.0.8" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="8.0.8" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="8.0.8" />
@@ -21,6 +29,10 @@
   <ItemGroup>
     <Folder Include="wwwroot\Images\Item\" />
     <Folder Include="wwwroot\Images\Coupon\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\js\Coupon.js" />
   </ItemGroup>
 
   <ItemGroup>

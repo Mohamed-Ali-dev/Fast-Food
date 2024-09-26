@@ -55,7 +55,7 @@ namespace FastFood.Areas.Admin.Controllers
                 }
               _unitOfWork.Coupon.Add(coupon);
                 _unitOfWork.Save();
-                return RedirectToAction("Index");
+                return RedirectToAction(nameof(Index));
 
             }
             return View(coupon);
@@ -100,55 +100,84 @@ namespace FastFood.Areas.Admin.Controllers
                 }
                 _unitOfWork.Coupon.Update(coupon);
                 _unitOfWork.Save();
-                return RedirectToAction("Index");
+                return RedirectToAction(nameof(Index));
 
             }
             return View(coupon);
         }
-        [HttpGet]
-        public IActionResult Delete(int? id)
-        {
-            if (id == 0 || id == null)
-            {
-                return NotFound();
-            }
-            var couponToDelete = _unitOfWork.Coupon.Get(c => c.Id == id);
-            if (couponToDelete == null)
-            {
-                return NotFound();
-            }
-            return View(couponToDelete);
-
-         
-        }
-        [HttpPost,ActionName("Delete")]
-        public IActionResult DeletePost(int? id)
-        {
-            if (id == 0 || id == null)
-            {
-                return NotFound();
-            }
-            var couponToDelete = _unitOfWork.Coupon.Get(c => c.Id == id);
-            if (couponToDelete == null)
-            {
-                return NotFound();
-            }
-            _unitOfWork.Coupon.Remove(couponToDelete);
-            _unitOfWork.Save();
-            return RedirectToAction("Index");
-        }
-
-
         internal async Task<string> SaveFile(IFormFile file)
         {
-            var fileName =$"{Guid.NewGuid()}{Path.GetExtension(file.FileName)}";
-            var filePath = $"{_webHostEnvironment.WebRootPath}{_imagePath}"; 
-            var imagePath = Path.Combine(filePath,fileName);
+            var fileName = $"{Guid.NewGuid()}{Path.GetExtension(file.FileName)}";
+            var filePath = $"{_webHostEnvironment.WebRootPath}{_imagePath}";
+            var imagePath = Path.Combine(filePath, fileName);
             using var stream = System.IO.File.Create(imagePath);
             await file.CopyToAsync(stream);
-            return @"\Images\Coupon\"+fileName;
+            return @"\Images\Coupon\" + fileName;
+        }
+        //[HttpGet]
+        //public IActionResult Delete(int? id)
+        //{
+        //    if (id == 0 || id == null)
+        //    {
+        //        return NotFound();
+        //    }
+        //    var couponToDelete = _unitOfWork.Coupon.Get(c => c.Id == id);
+        //    if (couponToDelete == null)
+        //    {
+        //        return NotFound();
+        //    }
+        //    return View(couponToDelete);
+
+
+        //}
+        //[HttpPost,ActionName("Delete")]
+        //public IActionResult DeletePost(int? id)
+        //{
+        //    if (id == 0 || id == null)
+        //    {
+        //        return NotFound();
+        //    }
+        //    var couponToDelete = _unitOfWork.Coupon.Get(c => c.Id == id);
+        //    if (couponToDelete == null)
+        //    {
+        //        return NotFound();
+        //    }
+        //    _unitOfWork.Coupon.Remove(couponToDelete);
+        //    _unitOfWork.Save();
+        //    return RedirectToAction(nameof(Index));
+        //}
+
+
+
+
+        #region API CALLS
+
+        [HttpDelete]
+        public IActionResult Delete(int? id)
+        {
+            var objToBeDeleted = _unitOfWork.Coupon.Get(u => u.Id == id);
+            if (objToBeDeleted == null)
+            {
+                return Json(new { success = false, message = "Error while deleting" });
+            }
+            if (objToBeDeleted.CouponImage != null)
+            {
+                var oldImage = Path.Combine(_webHostEnvironment.WebRootPath, objToBeDeleted.CouponImage.TrimStart('\\'));
+
+
+                if (System.IO.File.Exists(oldImage))
+                {
+                    System.IO.File.Delete(oldImage);
+                }
+            }
+            _unitOfWork.Coupon.Remove(objToBeDeleted);
+            _unitOfWork.Save();
+
+            return Json(new { success = true, message = "Delete Successful" });
 
 
         }
+
+        #endregion
     }
 }

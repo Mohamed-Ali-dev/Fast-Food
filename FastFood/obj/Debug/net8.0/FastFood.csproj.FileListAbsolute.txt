@@ -294,3 +294,4 @@ D:\Projects\MVC\FastFood\FastFood\bin\Debug\net8.0\FastFood.Services.pdb
 D:\Projects\MVC\FastFood\FastFood\bin\Debug\net8.0\Microsoft.AspNetCore.JsonPatch.dll
 D:\Projects\MVC\FastFood\FastFood\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
 D:\Projects\MVC\FastFood\FastFood\bin\Debug\net8.0\libman.json
+D:\Projects\MVC\FastFood\FastFood\obj\Debug\net8.0\FastFood.sourcelink.json
