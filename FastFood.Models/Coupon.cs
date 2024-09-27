@@ -13,7 +13,8 @@ namespace FastFood.Models
     {
         public int Id { get; set; }
         public string Title { get; set; }
-        public string Type { get; set; }
+        public CouponType Type { get; set; }
+        [Range(0, 100, ErrorMessage = "Discount must be between 0 and 100")]
         public double Discount { get; set; }
         public double MinimumAmount { get; set; }
         [ValidateNever]
@@ -23,9 +24,7 @@ namespace FastFood.Models
     }
     public enum CouponType
     {
-        [Display(Name = "Percent")]
         percent=0,
-        [Display(Name = "currency")]
         currency = 1 
 
     }

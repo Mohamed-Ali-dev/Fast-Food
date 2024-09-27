@@ -114,42 +114,7 @@ namespace FastFood.Areas.Admin.Controllers
             await file.CopyToAsync(stream);
             return @"\Images\Coupon\" + fileName;
         }
-        //[HttpGet]
-        //public IActionResult Delete(int? id)
-        //{
-        //    if (id == 0 || id == null)
-        //    {
-        //        return NotFound();
-        //    }
-        //    var couponToDelete = _unitOfWork.Coupon.Get(c => c.Id == id);
-        //    if (couponToDelete == null)
-        //    {
-        //        return NotFound();
-        //    }
-        //    return View(couponToDelete);
-
-
-        //}
-        //[HttpPost,ActionName("Delete")]
-        //public IActionResult DeletePost(int? id)
-        //{
-        //    if (id == 0 || id == null)
-        //    {
-        //        return NotFound();
-        //    }
-        //    var couponToDelete = _unitOfWork.Coupon.Get(c => c.Id == id);
-        //    if (couponToDelete == null)
-        //    {
-        //        return NotFound();
-        //    }
-        //    _unitOfWork.Coupon.Remove(couponToDelete);
-        //    _unitOfWork.Save();
-        //    return RedirectToAction(nameof(Index));
-        //}
-
-
-
-
+   
         #region API CALLS
 
         [HttpDelete]

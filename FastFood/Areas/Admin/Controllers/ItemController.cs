@@ -190,11 +190,15 @@ namespace FastFood.Areas.Admin.Controllers
             {
                 return NotFound();
             }
-            var oldImage = Path.Combine(_webHostEnvironment.WebRootPath, itemToBeDeleted.ImageUrl.TrimStart('\\'));
-            if (System.IO.File.Exists(oldImage))
+            if(itemToBeDeleted.ImageUrl != null)
             {
-                System.IO.File.Delete(oldImage);
+                var oldImage = Path.Combine(_webHostEnvironment.WebRootPath, itemToBeDeleted.ImageUrl.TrimStart('\\'));
+                if (System.IO.File.Exists(oldImage))
+                {
+                    System.IO.File.Delete(oldImage);
+                }
             }
+        
             _unitOfWork.Item.Remove(itemToBeDeleted);
             _unitOfWork.Save();
             return Ok();

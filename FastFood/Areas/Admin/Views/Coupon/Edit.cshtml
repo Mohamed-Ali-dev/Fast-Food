@@ -24,7 +24,7 @@
             <span asp-validation-for="Type" class="text-danger"></span>
         </div>
         <div class="mb-3 row p-1">
-            <label asp-for="Discount" lass="p-0"></label>
+            <label asp-for="Discount" lass="p-0">Discount (%)</label>
             <input asp-for="Discount" class="form-control" />
             <span asp-validation-for="Discount" class="text-danger"></span>
         </div>
@@ -40,7 +40,8 @@
         </div>
         <div class="mb-3 row p-1">
             <label class="form-check-label">
-                <input class="form-check-input" asp-for="IsActive" type="checkbox" /> @Model.IsActive
+                <input class="form-check-input" asp-for="IsActive" type="checkbox" />
+                @(Model.IsActive?"Active":"Inactive") <!-- Display "Active" or "Inactive" based on the model -->
             </label>
         </div>
         <div class="row">
@@ -48,7 +49,7 @@
                 <button type="submit" class="btn btn-primary form-control">Update</button>
             </div>
             <div class="col-6 col-md-3">
-                <a asp-controller="Category" asp-action="Index" class="btn btn-secondary border form-control">
+                <a asp-controller="Coupon" asp-action="Index" class="btn btn-secondary border form-control">
                     Back to List
                 </a>
             </div>
