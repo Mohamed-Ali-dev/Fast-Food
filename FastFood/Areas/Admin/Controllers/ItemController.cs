@@ -1,4 +1,5 @@
-﻿using FastFood.Models;
+﻿using FastFood.DtOs;
+using FastFood.Models;
 using FastFood.Models.ViewModels;
 using FastFood.Repository.Repository;
 using FastFood.Repository.Repository.IRepository;
@@ -175,10 +176,20 @@ namespace FastFood.Areas.Admin.Controllers
         [HttpGet]
         public IActionResult GetAll()
         {
-            List<Item> items = _unitOfWork.Item.GetAll(includeProperties: "Category,SubCategory").ToList();
+            var items = _unitOfWork.Item.GetAll(includeProperties: "Category,SubCategory")
+          .Select(i => new ItemDto
+          {
+              Id = i.Id,
+              Title = i.Title,
+              Description = i.Description,
+              Price = i.Price,
+              Category = i.Category?.Title, 
+              SubCategory = i.SubCategory?.Title 
+          }).ToList();
+
             return Json(new { data = items });
         }
-        //[HttpDelete]
+        [HttpDelete]
         public IActionResult Delete(int? id)
         {
             if (id == null || id == 0)
@@ -188,7 +199,7 @@ namespace FastFood.Areas.Admin.Controllers
             var itemToBeDeleted = _unitOfWork.Item.Get(u => u.Id == id);
             if (itemToBeDeleted == null)
             {
-                return NotFound();
+                return Json(new { success = false, message = "Error while deleting" });
             }
             if(itemToBeDeleted.ImageUrl != null)
             {
@@ -201,7 +212,7 @@ namespace FastFood.Areas.Admin.Controllers
         
             _unitOfWork.Item.Remove(itemToBeDeleted);
             _unitOfWork.Save();
-            return Ok();
+            return Json(new { success = true, message = "Delete Successful" });
             #endregion
         }
     }

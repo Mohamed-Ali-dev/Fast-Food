@@ -3,6 +3,7 @@ using FastFood.Models.ViewModels;
 using FastFood.Repository.Repository.IRepository;
 using FastFood.Services;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.ModelBinding.Validation;
 using Microsoft.AspNetCore.Mvc.Rendering;
@@ -122,5 +123,14 @@ namespace FastFood.Areas.Admin.Controllers
             _unitOfWork.Save();
             return Ok();
         }
+        #region API CALLS
+        [HttpGet]
+        public IActionResult GetAll()
+        {
+            List<SubCategory> subCategories = _unitOfWork.SubCategory.GetAll().ToList();
+            return Json(new { data = subCategories });
+        }
+
+            #endregion
+        }
     }
-}

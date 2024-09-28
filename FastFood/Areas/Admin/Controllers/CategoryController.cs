@@ -94,6 +94,10 @@ namespace FastFood.Areas.Admin.Controllers
   
         public IActionResult Delete(int? id)
         {
+            if (id == null || id == 0)
+            {
+                return NotFound();
+            }
             var objToBeDeleted = _unitOfWork.Category.Get(u => u.Id == id);
             if (objToBeDeleted == null)
             {

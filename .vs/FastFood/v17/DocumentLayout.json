@@ -3,24 +3,20 @@
   "WorkspaceRootPath": "D:\\Projects\\MVC\\FastFood\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4BA3C413-CC2D-46D5-ACBA-5A02B5D607CE}|FastFood\\FastFood.csproj|d:\\projects\\mvc\\fastfood\\fastfood\\areas\\admin\\views\\coupon\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4BA3C413-CC2D-46D5-ACBA-5A02B5D607CE}|FastFood\\FastFood.csproj|solutionrelative:fastfood\\areas\\admin\\views\\coupon\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{4BA3C413-CC2D-46D5-ACBA-5A02B5D607CE}|FastFood\\FastFood.csproj|d:\\projects\\mvc\\fastfood\\fastfood\\wwwroot\\js\\item.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{4BA3C413-CC2D-46D5-ACBA-5A02B5D607CE}|FastFood\\FastFood.csproj|solutionrelative:fastfood\\wwwroot\\js\\item.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4BA3C413-CC2D-46D5-ACBA-5A02B5D607CE}|FastFood\\FastFood.csproj|d:\\projects\\mvc\\fastfood\\fastfood\\areas\\admin\\views\\coupon\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4BA3C413-CC2D-46D5-ACBA-5A02B5D607CE}|FastFood\\FastFood.csproj|solutionrelative:fastfood\\areas\\admin\\views\\coupon\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{4BA3C413-CC2D-46D5-ACBA-5A02B5D607CE}|FastFood\\FastFood.csproj|d:\\projects\\mvc\\fastfood\\fastfood\\dtos\\itemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BA3C413-CC2D-46D5-ACBA-5A02B5D607CE}|FastFood\\FastFood.csproj|solutionrelative:fastfood\\dtos\\itemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4BA3C413-CC2D-46D5-ACBA-5A02B5D607CE}|FastFood\\FastFood.csproj|d:\\projects\\mvc\\fastfood\\fastfood\\areas\\admin\\views\\coupon\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4BA3C413-CC2D-46D5-ACBA-5A02B5D607CE}|FastFood\\FastFood.csproj|solutionrelative:fastfood\\areas\\admin\\views\\coupon\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{4BA3C413-CC2D-46D5-ACBA-5A02B5D607CE}|FastFood\\FastFood.csproj|d:\\projects\\mvc\\fastfood\\fastfood\\areas\\admin\\views\\item\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4BA3C413-CC2D-46D5-ACBA-5A02B5D607CE}|FastFood\\FastFood.csproj|solutionrelative:fastfood\\areas\\admin\\views\\item\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ACE1848E-B785-4BB2-BD37-C42C00494A66}|FastFood.Models\\FastFood.Models.csproj|d:\\projects\\mvc\\fastfood\\fastfood.models\\coupon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ACE1848E-B785-4BB2-BD37-C42C00494A66}|FastFood.Models\\FastFood.Models.csproj|solutionrelative:fastfood.models\\coupon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4BA3C413-CC2D-46D5-ACBA-5A02B5D607CE}|FastFood\\FastFood.csproj|d:\\projects\\mvc\\fastfood\\fastfood\\areas\\admin\\controllers\\couponcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4BA3C413-CC2D-46D5-ACBA-5A02B5D607CE}|FastFood\\FastFood.csproj|solutionrelative:fastfood\\areas\\admin\\controllers\\couponcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4BA3C413-CC2D-46D5-ACBA-5A02B5D607CE}|FastFood\\FastFood.csproj|d:\\projects\\mvc\\fastfood\\fastfood\\areas\\admin\\controllers\\itemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BA3C413-CC2D-46D5-ACBA-5A02B5D607CE}|FastFood\\FastFood.csproj|solutionrelative:fastfood\\areas\\admin\\controllers\\itemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,8 +26,22 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Item.js",
+              "DocumentMoniker": "D:\\Projects\\MVC\\FastFood\\FastFood\\wwwroot\\js\\Item.js",
+              "RelativeDocumentMoniker": "FastFood\\wwwroot\\js\\Item.js",
+              "ToolTip": "D:\\Projects\\MVC\\FastFood\\FastFood\\wwwroot\\js\\Item.js*",
+              "RelativeToolTip": "FastFood\\wwwroot\\js\\Item.js*",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAwwDIAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-09-28T09:48:48.192Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
@@ -58,67 +68,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "D:\\Projects\\MVC\\FastFood\\FastFood\\Areas\\Admin\\Views\\Coupon\\Edit.cshtml",
-              "RelativeDocumentMoniker": "FastFood\\Areas\\Admin\\Views\\Coupon\\Edit.cshtml",
-              "ToolTip": "D:\\Projects\\MVC\\FastFood\\FastFood\\Areas\\Admin\\Views\\Coupon\\Edit.cshtml*",
-              "RelativeToolTip": "FastFood\\Areas\\Admin\\Views\\Coupon\\Edit.cshtml*",
-              "ViewState": "AQIAABEAAAAAAAAAAAAowCIAAAAOAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-27T12:13:04.862Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "D:\\Projects\\MVC\\FastFood\\FastFood\\Areas\\Admin\\Views\\Coupon\\Create.cshtml",
-              "RelativeDocumentMoniker": "FastFood\\Areas\\Admin\\Views\\Coupon\\Create.cshtml",
-              "ToolTip": "D:\\Projects\\MVC\\FastFood\\FastFood\\Areas\\Admin\\Views\\Coupon\\Create.cshtml",
-              "RelativeToolTip": "FastFood\\Areas\\Admin\\Views\\Coupon\\Create.cshtml",
-              "ViewState": "AQIAABUAAAAAAAAAAAAAABoAAAAxAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-27T11:50:56.636Z",
+              "Title": "ItemDto.cs",
+              "DocumentMoniker": "D:\\Projects\\MVC\\FastFood\\FastFood\\DtOs\\ItemDto.cs",
+              "RelativeDocumentMoniker": "FastFood\\DtOs\\ItemDto.cs",
+              "ToolTip": "D:\\Projects\\MVC\\FastFood\\FastFood\\DtOs\\ItemDto.cs",
+              "RelativeToolTip": "FastFood\\DtOs\\ItemDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T09:14:20.401Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Coupon.cs",
-              "DocumentMoniker": "D:\\Projects\\MVC\\FastFood\\FastFood.Models\\Coupon.cs",
-              "RelativeDocumentMoniker": "FastFood.Models\\Coupon.cs",
-              "ToolTip": "D:\\Projects\\MVC\\FastFood\\FastFood.Models\\Coupon.cs",
-              "RelativeToolTip": "FastFood.Models\\Coupon.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAWAAAA",
+              "Title": "ItemController.cs",
+              "DocumentMoniker": "D:\\Projects\\MVC\\FastFood\\FastFood\\Areas\\Admin\\Controllers\\ItemController.cs",
+              "RelativeDocumentMoniker": "FastFood\\Areas\\Admin\\Controllers\\ItemController.cs",
+              "ToolTip": "D:\\Projects\\MVC\\FastFood\\FastFood\\Areas\\Admin\\Controllers\\ItemController.cs",
+              "RelativeToolTip": "FastFood\\Areas\\Admin\\Controllers\\ItemController.cs",
+              "ViewState": "AQIAALAAAAAAAAAAAAAwwMYAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-27T11:49:59.911Z",
+              "WhenOpened": "2024-09-28T09:10:24.268Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\Projects\\MVC\\FastFood\\FastFood\\Areas\\Admin\\Views\\Coupon\\Index.cshtml",
-              "RelativeDocumentMoniker": "FastFood\\Areas\\Admin\\Views\\Coupon\\Index.cshtml",
-              "ToolTip": "D:\\Projects\\MVC\\FastFood\\FastFood\\Areas\\Admin\\Views\\Coupon\\Index.cshtml",
-              "RelativeToolTip": "FastFood\\Areas\\Admin\\Views\\Coupon\\Index.cshtml",
-              "ViewState": "AQIAAAIAAAAAAAAAAAAIwAoAAAAEAAAA",
+              "DocumentMoniker": "D:\\Projects\\MVC\\FastFood\\FastFood\\Areas\\Admin\\Views\\Item\\Index.cshtml",
+              "RelativeDocumentMoniker": "FastFood\\Areas\\Admin\\Views\\Item\\Index.cshtml",
+              "ToolTip": "D:\\Projects\\MVC\\FastFood\\FastFood\\Areas\\Admin\\Views\\Item\\Index.cshtml",
+              "RelativeToolTip": "FastFood\\Areas\\Admin\\Views\\Item\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-27T11:48:05.989Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CouponController.cs",
-              "DocumentMoniker": "D:\\Projects\\MVC\\FastFood\\FastFood\\Areas\\Admin\\Controllers\\CouponController.cs",
-              "RelativeDocumentMoniker": "FastFood\\Areas\\Admin\\Controllers\\CouponController.cs",
-              "ToolTip": "D:\\Projects\\MVC\\FastFood\\FastFood\\Areas\\Admin\\Controllers\\CouponController.cs",
-              "RelativeToolTip": "FastFood\\Areas\\Admin\\Controllers\\CouponController.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAACMAAAAqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-26T15:46:15.812Z",
+              "WhenOpened": "2024-09-28T09:50:01.847Z",
               "EditorCaption": ""
             }
           ]
