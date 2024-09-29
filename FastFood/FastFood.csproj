@@ -27,7 +27,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="wwwroot\Images\Item\" />
+    <Folder Include="wwwroot\Images\Items\" />
     <Folder Include="wwwroot\Images\Coupon\" />
   </ItemGroup>
 

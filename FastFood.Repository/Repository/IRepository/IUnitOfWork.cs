@@ -12,6 +12,7 @@ namespace FastFood.Repository.Repository.IRepository
         ISubCategoryRepository SubCategory { get; }
         IItemRepository Item { get; }
         ICouponRepository Coupon {  get; }
+        IItemImageRepository ItemImage {  get; }
         void Save();
     }
 }

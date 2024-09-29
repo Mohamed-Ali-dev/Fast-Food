@@ -15,11 +15,6 @@ namespace FastFood.Models
         [Required]
         public string Title { get; set; }
         public string Description { get; set; }
-        [Required]
-        [ValidateNever]
-
-        public string ImageUrl { get; set; } 
-
         public double Price { get; set; }
         [DisplayName("Category")]
         [Required]
@@ -31,5 +26,7 @@ namespace FastFood.Models
         public int SubCategoryId { get; set; }
         [ValidateNever]
         public SubCategory SubCategory { get; set; }
+        [ValidateNever]
+        public List<ItemImage> ItemImages { get; set; }
     }
 }

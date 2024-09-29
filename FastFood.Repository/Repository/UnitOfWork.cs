@@ -16,6 +16,7 @@ namespace FastFood.Repository.Repository
         public IItemRepository Item { get; private set; }
 
         public ICouponRepository Coupon { get; private set; }
+        public IItemImageRepository ItemImage { get; private set; }
 
         private readonly ApplicationDbContext _db;
 
@@ -27,6 +28,7 @@ namespace FastFood.Repository.Repository
             SubCategory = new SubCategoryRepository(_db);
             Item = new ItemRepository(_db);
             Coupon = new CouponRepository(_db);
+            ItemImage = new ItemImageRepository(_db);
         }
 
         public void Save()

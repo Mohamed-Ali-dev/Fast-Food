@@ -27,10 +27,7 @@ namespace FastFood.Repository.Repository
             itemFromDb.CategoryId = newItem.CategoryId;
             itemFromDb.SubCategoryId = newItem.SubCategoryId;
             itemFromDb.Price = newItem.Price;
-            if (newItem.ImageUrl != null)
-            {
-                itemFromDb.ImageUrl = newItem.ImageUrl;
-            }
+            itemFromDb.ItemImages = newItem.ItemImages;
         }
     }
 }

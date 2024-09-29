@@ -26,6 +26,8 @@ namespace FastFood.Repository.Data
         public DbSet<OrderDetail> OrderDetails { get; set; }
         public DbSet<OrderHeader> orderHeaders { get; set; }
         public DbSet<SubCategory> SubCategories { get; set; }
+        public DbSet<ItemImage> ItemImages { get; set; }
+
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             base.OnConfiguring(optionsBuilder);

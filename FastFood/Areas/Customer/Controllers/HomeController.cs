@@ -22,13 +22,13 @@ namespace FastFood.Areas.Customer.Controllers
 
         public IActionResult Index()
         {
-            IEnumerable<Item> items = _unitOfWork.Item.GetAll(includeProperties: "Category,SubCategory");
+            IEnumerable<Item> items = _unitOfWork.Item.GetAll(includeProperties: "Category,SubCategory,ItemImages");
             return View(items);
 
         }
         public IActionResult Details(int? id)
         {
-            Item item = _unitOfWork.Item.Get(u=> u.Id == id, includeProperties: "Category,SubCategory");
+            Item item = _unitOfWork.Item.Get(u=> u.Id == id, includeProperties: "Category,SubCategory,ItemImages");
             return View(item);
 
         }

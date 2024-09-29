@@ -18,7 +18,6 @@ namespace FastFood.Areas.Admin.Controllers
     {
         private readonly IUnitOfWork _unitOfWork;
         private readonly IWebHostEnvironment _webHostEnvironment;
-        private readonly string _imagesPath = "/Images/Item";
 
 
         public ItemController(IUnitOfWork unitOfWork, IWebHostEnvironment webHostEnvironment)
@@ -36,9 +35,8 @@ namespace FastFood.Areas.Admin.Controllers
             return View(items);
         }
         [HttpGet]
-        public IActionResult Create()
+        public IActionResult Upsert(int? id)
         {
-            Item item = new Item();
             ItemVM itemVM = new ItemVM()
             {
                 CategoryList = _unitOfWork.Category.GetAll().Select(c => new SelectListItem
@@ -54,124 +52,100 @@ namespace FastFood.Areas.Admin.Controllers
                 Item = new Item()
 
             };
-            return View(itemVM);
+            if(id == null || id  == 0)
+            {
+                return View(itemVM);
+
+            }
+            else
+            {
+                itemVM.Item = _unitOfWork.Item.Get(u => u.Id == id, includeProperties: "ItemImages");
+                return View(itemVM);
+            }
         }
         [HttpPost]
-        public async Task<IActionResult> Create(ItemVM itemVM, IFormFile? file)
+        public async Task<IActionResult> Upsert(ItemVM itemVM, List<IFormFile>? files)
         {
             if (ModelState.IsValid)
             {
-
-                if (file != null && file.Length > 0)
+                if(itemVM.Item.Id == 0)
                 {
-                    itemVM.Item.ImageUrl = await SaveFile(file);
+                    _unitOfWork.Item.Add(itemVM.Item);
                 }
-
-                _unitOfWork.Item.Add(itemVM.Item);
+                else
+                {
+                    _unitOfWork.Item.Update(itemVM.Item);
+                }
                 _unitOfWork.Save();
+
+                if(files != null)
+                {
+                    string wwRootPath = _webHostEnvironment.WebRootPath;
+                    foreach (IFormFile file in files)
+                    {
+                        string fileName = Guid.NewGuid().ToString() + Path.GetExtension(file.FileName);
+                        string objPath = @"Images\Items\Item-" + itemVM.Item.Id;
+                        string finalPath = Path.Combine(wwRootPath, objPath);
+                        if(!Directory.Exists(finalPath))
+                        {
+                            Directory.CreateDirectory(finalPath);
+                        }
+                        using (var fileStream = new FileStream(Path.Combine(finalPath, fileName), FileMode.Create))
+                        {
+                            file.CopyTo(fileStream);
+                        }
+                        ItemImage itemImage = new() { 
+                        ImageUrl = $@"\{objPath}\{fileName}",
+                        ItemId = itemVM.Item.Id
+                        };
+                        if (itemVM.Item.ItemImages == null)
+                            itemVM.Item.ItemImages = new List<ItemImage>();
+
+                        itemVM.Item.ItemImages.Add(itemImage);
+                    }
+                    _unitOfWork.Item.Update(itemVM.Item);
+                    _unitOfWork.Save();
+                }
+                TempData["success"] = "completed successfully";
                 return RedirectToAction(nameof(Index));
+            }
+            else
+            {
+                itemVM.CategoryList = _unitOfWork.Category.GetAll().Select(e => new SelectListItem
+                {
+                    Text = e.Title,
+                    Value= e.Id.ToString(),
+                });
+                itemVM.SubCategoryList = _unitOfWork.SubCategory.GetAll().Select(e => new SelectListItem
+                {
+                    Text = e.Title,
+                    Value = e.Id.ToString(),
+                });
             }
             return View(itemVM);
         }
-        [HttpGet]
-        public IActionResult Edit(int id)
+    
+        public IActionResult DeleteImage(int imageId)
         {
-            Item item = _unitOfWork.Item.Get(i => i.Id == id, includeProperties: "Category,SubCategory");
-            if (item == null)
+            var imageToBeDeleted = _unitOfWork.ItemImage.Get(u =>  u.Id == imageId);
+            int itemId = imageToBeDeleted.ItemId;
+            if(imageToBeDeleted != null)
             {
-                return NotFound();
-            }
-            else
-            {
-                ItemVM itemVM = new ItemVM()
+                if (!string.IsNullOrEmpty(imageToBeDeleted.ImageUrl))
                 {
-                    Item = item,
-                    CategoryList = _unitOfWork.Category.GetAll().Select(c => new SelectListItem
-                    {
-                        Text = c.Title,
-                        Value = c.Id.ToString()
-                    }),
-                    SubCategoryList = _unitOfWork.SubCategory.GetAll().Select(s => new SelectListItem
-                    {
-                        Text = s.Title,
-                        Value = s.Id.ToString()
-                    })
-
-                };
-                return View(itemVM);
-            }
-
-        }
-        [HttpPost]
-        public async Task<IActionResult> Edit(ItemVM itemVM, IFormFile file)
-        {
-
-            if (!ModelState.IsValid)
-            {
-
-                var errors = ModelState.Values.SelectMany(v => v.Errors);
-                foreach (var error in errors)
-                {
-                    // Log or handle errors
-                    Console.WriteLine(error.ErrorMessage);
-                }
-                itemVM.CategoryList = _unitOfWork.Category.GetAll().Select(c => new SelectListItem
-                {
-                    Text = c.Title,
-                    Value = c.Id.ToString()
-                });
-                itemVM.SubCategoryList = _unitOfWork.SubCategory.GetAll().Select(s => new SelectListItem
-                {
-                    Text = s.Title,
-                    Value = s.Id.ToString()
-                });
-                return View(itemVM);
-
-            }
-            else
-            {
-
-                if (file != null && file.Length > 0)
-                {
-
-                    Item itemFromDb = _unitOfWork.Item.Get(u => u.Id == itemVM.Item.Id);
-
-
-                    if (itemFromDb == null)
-                    {
-                        return NotFound();
-                    }
-                    var oldImagePath = Path.Combine(_webHostEnvironment.WebRootPath, itemFromDb.ImageUrl.TrimStart('\\'));
-
-
-                    if (System.IO.File.Exists(oldImagePath))
+                    var oldImagePath = Path.Combine(_webHostEnvironment.WebRootPath, imageToBeDeleted.ImageUrl.TrimStart('\\'));
+                    if(System.IO.File.Exists(oldImagePath))
                     {
                         System.IO.File.Delete(oldImagePath);
                     }
-
-                    itemVM.Item.ImageUrl = await SaveFile(file);
-
+                    _unitOfWork.ItemImage.Remove(imageToBeDeleted);
+                    _unitOfWork.Save();
+                    TempData["error"] = "Deleted successfully";
                 }
-
-                _unitOfWork.Item.Update(itemVM.Item);
-                _unitOfWork.Save();
-                return RedirectToAction("Index");
-
             }
-
-
+            return RedirectToAction(nameof(Upsert), new { id = itemId });
         }
-
-        private async Task<string> SaveFile(IFormFile file)
-        {
-            var fileName = $"{Guid.NewGuid()}{Path.GetExtension(file.FileName)}";
-            var filePath = $"{_webHostEnvironment.WebRootPath}{_imagesPath}";
-            var imagePath = Path.Combine(filePath, fileName);// wwwroot/Images/item/guidstring.extention
-            using var stream = System.IO.File.Create(imagePath);
-            await file.CopyToAsync(stream);
-            return @"\Images\Item\" + fileName;
-
-        }
+        
         #region API CALLS
         [HttpGet]
         public IActionResult GetAll()
@@ -201,14 +175,14 @@ namespace FastFood.Areas.Admin.Controllers
             {
                 return Json(new { success = false, message = "Error while deleting" });
             }
-            if(itemToBeDeleted.ImageUrl != null)
-            {
-                var oldImage = Path.Combine(_webHostEnvironment.WebRootPath, itemToBeDeleted.ImageUrl.TrimStart('\\'));
-                if (System.IO.File.Exists(oldImage))
-                {
-                    System.IO.File.Delete(oldImage);
-                }
-            }
+            //if(itemToBeDeleted.ImageUrl != null)
+            //{
+            //    var oldImage = Path.Combine(_webHostEnvironment.WebRootPath, itemToBeDeleted.ImageUrl.TrimStart('\\'));
+            //    if (System.IO.File.Exists(oldImage))
+            //    {
+            //        System.IO.File.Delete(oldImage);
+            //    }
+            //}
         
             _unitOfWork.Item.Remove(itemToBeDeleted);
             _unitOfWork.Save();
