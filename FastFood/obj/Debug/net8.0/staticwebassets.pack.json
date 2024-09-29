@@ -33,6 +33,10 @@
       "PackagePath": "staticwebassets\\js\\Item.js"
     },
     {
+      "Id": "D:\\Projects\\MVC\\FastFood\\FastFood\\wwwroot\\js\\SubCategory.js",
+      "PackagePath": "staticwebassets\\js\\SubCategory.js"
+    },
+    {
       "Id": "D:\\Projects\\MVC\\FastFood\\FastFood\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

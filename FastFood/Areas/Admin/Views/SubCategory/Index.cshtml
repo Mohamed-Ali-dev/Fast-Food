@@ -3,45 +3,51 @@
 @{
     ViewData["Title"] = "Index";
 }
+<div class="card shadow border-0 mt-4">
+    <div class="card-header bg-secondary bg-gradient py-3">
+        <div class="text-center">
+            <h2 class="text-white">Sub Category List</h2>
+        </div>
+    </div>
+    <div class="card-body p-4">
+        <div class="row mb-3">
+            <div class="col-12 text-end">
+                <a asp-controller="SubCategory" asp-action="Create" class="btn btn-primary">
+                    <i class="bi bi-plus-circle"></i> Create New Category
+                </a>
+            </div>
+        </div>
+        <table class="table table-bordered table-striped table-hover">
+            <thead class="table-dark">
+                <tr>
+                    <th>Sub Category Name</th>
+                    <th>Category Name</th>
+                    <th class="text-center">Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.Title</td>
+                        <td>@item.Category.Title</td>
+                        <td class="text-center">
+                            <div class="btn-group" role="group">
+                                <a asp-controller="SubCategory" asp-action="Edit" asp-route-id="@item.Id" class="btn btn-warning mx-1">
+                                    <i class="bi bi-pencil-fill"></i> Edit
+                                </a>
+                                <a asp-controller="SubCategory" asp-action="Delete" asp-route-id="@item.Id" data-id="@item.Id" class="btn btn-danger mx-1 js-delete">
+                                    <i class="bi bi-trash-fill"></i> Delete
+                                </a>
+                            </div>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+@section Scripts {
+    <script src="~/js/subcategory.js" asp-append-version="true"></script>
 
-<h1>Index</h1>
-
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.Id)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Title)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Category.Title)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.Id)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Title)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Category.Title)
-            </td>
-            <td>
-                @Html.ActionLink("Edit", "Edit", new { id=item.Id }) |
-                    @Html.ActionLink("Details", "Details", new { id = item.Id }) |
-                    @Html.ActionLink("Delete", "Delete", new { id = item.Id })
-            </td>
-        </tr>
 }
-    </tbody>
-</table>

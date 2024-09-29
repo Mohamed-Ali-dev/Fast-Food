@@ -29,9 +29,15 @@ namespace FastFood.Areas.Admin.Controllers
         [HttpGet]
         public IActionResult Create()
         {
-            SubCategoryVM subCategoryVM = new SubCategoryVM();
+            SubCategoryVM subCategoryVM = new SubCategoryVM()
+            {
+                CategoryList = _unitOfWork.Category.GetAll().Select(c => new SelectListItem
+                {
+                    Text = c.Title,
+                    Value = c.Id.ToString()
+                })
+            };
 
-            ViewBag.Category = new SelectList(_unitOfWork.Category.GetAll(), "Id", "Title");
             return View(subCategoryVM);
         }
         [HttpPost]
@@ -44,11 +50,13 @@ namespace FastFood.Areas.Admin.Controllers
                 subCategory.CategoryId = subCategoryVM.CategoryId;
                 _unitOfWork.SubCategory.Add(subCategory);
                 _unitOfWork.Save();
-                return RedirectToAction("Index");
+                return RedirectToAction(nameof(Index));
             }
-
-
-            ViewBag.Category = new SelectList(_unitOfWork.Category.GetAll(), "Id", "Title");
+            subCategoryVM.CategoryList = _unitOfWork.Category.GetAll().Select(c => new SelectListItem
+            {
+                Text = c.Title,
+                Value = c.Id.ToString()
+            });
                 return View(subCategoryVM);
             
         }
@@ -106,23 +114,7 @@ namespace FastFood.Areas.Admin.Controllers
             return View(subCategory);
             }
         }
-        public IActionResult Delete(int id)
-        {
-            if ( id == 0)
-            {
-                return BadRequest();
-            }
 
-            SubCategory subCategory = _unitOfWork.SubCategory
-                .Get(u => u.Id == id);
-            if (subCategory != null)
-            {
-                return NotFound();
-            }
-            _unitOfWork.SubCategory.Remove(subCategory);
-            _unitOfWork.Save();
-            return Ok();
-        }
         #region API CALLS
         [HttpGet]
         public IActionResult GetAll()
@@ -130,7 +122,22 @@ namespace FastFood.Areas.Admin.Controllers
             List<SubCategory> subCategories = _unitOfWork.SubCategory.GetAll().ToList();
             return Json(new { data = subCategories });
         }
-
-            #endregion
+        [HttpDelete]
+        public IActionResult Delete(int? id)
+        {
+            if (id == null || id == 0)
+            {
+                return NotFound();
+            }
+            var objToBeDeleted = _unitOfWork.SubCategory.Get(u => u.Id == id);
+            if (objToBeDeleted == null)
+            {
+                return Json(new { success = false, message = "Error while deleting" });
+            }
+            _unitOfWork.SubCategory.Remove(objToBeDeleted);
+            _unitOfWork.Save();
+            return Json(new { success = true, message = "Delete successful" });
         }
+        #endregion
     }
+}
