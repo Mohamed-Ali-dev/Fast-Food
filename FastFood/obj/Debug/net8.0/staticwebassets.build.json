@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "H+zyFDXYwUVtGydE1QbDV8aXAsGIT8tEq3IC63lPx50=",
+  "Hash": "mk0GHYXbpCtjuQP4uMt5jE2jSUowsX1pOFn53zS2Sy0=",
   "Source": "FastFood",
   "BasePath": "_content/FastFood",
   "Mode": "Default",
@@ -1364,6 +1364,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\SubCategory.js"
+    },
+    {
+      "Identity": "D:\\Projects\\MVC\\FastFood\\FastFood\\wwwroot\\js\\User.js",
+      "SourceId": "FastFood",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\MVC\\FastFood\\FastFood\\wwwroot\\",
+      "BasePath": "_content/FastFood",
+      "RelativePath": "js/User.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\User.js"
     },
     {
       "Identity": "D:\\Projects\\MVC\\FastFood\\FastFood\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",

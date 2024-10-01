@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "D:\\Projects\\MVC\\FastFood\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4BA3C413-CC2D-46D5-ACBA-5A02B5D607CE}|FastFood\\FastFood.csproj|d:\\projects\\mvc\\fastfood\\fastfood\\wwwroot\\js\\subcategory.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{4BA3C413-CC2D-46D5-ACBA-5A02B5D607CE}|FastFood\\FastFood.csproj|solutionrelative:fastfood\\wwwroot\\js\\subcategory.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{4BA3C413-CC2D-46D5-ACBA-5A02B5D607CE}|FastFood\\FastFood.csproj|d:\\projects\\mvc\\fastfood\\fastfood\\areas\\admin\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4BA3C413-CC2D-46D5-ACBA-5A02B5D607CE}|FastFood\\FastFood.csproj|solutionrelative:fastfood\\areas\\admin\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4BA3C413-CC2D-46D5-ACBA-5A02B5D607CE}|FastFood\\FastFood.csproj|d:\\projects\\mvc\\fastfood\\fastfood\\areas\\admin\\controllers\\subcategorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4BA3C413-CC2D-46D5-ACBA-5A02B5D607CE}|FastFood\\FastFood.csproj|solutionrelative:fastfood\\areas\\admin\\controllers\\subcategorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4BA3C413-CC2D-46D5-ACBA-5A02B5D607CE}|FastFood\\FastFood.csproj|d:\\projects\\mvc\\fastfood\\fastfood\\areas\\admin\\views\\user\\rolemanagment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4BA3C413-CC2D-46D5-ACBA-5A02B5D607CE}|FastFood\\FastFood.csproj|solutionrelative:fastfood\\areas\\admin\\views\\user\\rolemanagment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4BA3C413-CC2D-46D5-ACBA-5A02B5D607CE}|FastFood\\FastFood.csproj|d:\\projects\\mvc\\fastfood\\fastfood\\areas\\admin\\views\\subcategory\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4BA3C413-CC2D-46D5-ACBA-5A02B5D607CE}|FastFood\\FastFood.csproj|solutionrelative:fastfood\\areas\\admin\\views\\subcategory\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{4BA3C413-CC2D-46D5-ACBA-5A02B5D607CE}|FastFood\\FastFood.csproj|d:\\projects\\mvc\\fastfood\\fastfood\\areas\\admin\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BA3C413-CC2D-46D5-ACBA-5A02B5D607CE}|FastFood\\FastFood.csproj|solutionrelative:fastfood\\areas\\admin\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4BA3C413-CC2D-46D5-ACBA-5A02B5D607CE}|FastFood\\FastFood.csproj|d:\\projects\\mvc\\fastfood\\fastfood\\areas\\admin\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4BA3C413-CC2D-46D5-ACBA-5A02B5D607CE}|FastFood\\FastFood.csproj|solutionrelative:fastfood\\areas\\admin\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{4BA3C413-CC2D-46D5-ACBA-5A02B5D607CE}|FastFood\\FastFood.csproj|d:\\projects\\mvc\\fastfood\\fastfood\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4BA3C413-CC2D-46D5-ACBA-5A02B5D607CE}|FastFood\\FastFood.csproj|solutionrelative:fastfood\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -49,66 +49,59 @@
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\Projects\\MVC\\FastFood\\FastFood\\Areas\\Admin\\Views\\SubCategory\\Index.cshtml",
-              "RelativeDocumentMoniker": "FastFood\\Areas\\Admin\\Views\\SubCategory\\Index.cshtml",
-              "ToolTip": "D:\\Projects\\MVC\\FastFood\\FastFood\\Areas\\Admin\\Views\\SubCategory\\Index.cshtml*",
-              "RelativeToolTip": "FastFood\\Areas\\Admin\\Views\\SubCategory\\Index.cshtml*",
-              "ViewState": "AQIAABUAAAAAAAAAAAAAADIAAABJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-29T16:53:50.245Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "SubCategory.js",
-              "DocumentMoniker": "D:\\Projects\\MVC\\FastFood\\FastFood\\wwwroot\\js\\SubCategory.js",
-              "RelativeDocumentMoniker": "FastFood\\wwwroot\\js\\SubCategory.js",
-              "ToolTip": "D:\\Projects\\MVC\\FastFood\\FastFood\\wwwroot\\js\\SubCategory.js",
-              "RelativeToolTip": "FastFood\\wwwroot\\js\\SubCategory.js",
-              "ViewState": "AQIAAAIAAAAAAAAAAAAAwBMAAAAuAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-09-29T16:53:22.436Z",
-              "EditorCaption": ""
-            },
-            {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "SubCategoryController.cs",
-              "DocumentMoniker": "D:\\Projects\\MVC\\FastFood\\FastFood\\Areas\\Admin\\Controllers\\SubCategoryController.cs",
-              "RelativeDocumentMoniker": "FastFood\\Areas\\Admin\\Controllers\\SubCategoryController.cs",
-              "ToolTip": "D:\\Projects\\MVC\\FastFood\\FastFood\\Areas\\Admin\\Controllers\\SubCategoryController.cs",
-              "RelativeToolTip": "FastFood\\Areas\\Admin\\Controllers\\SubCategoryController.cs",
-              "ViewState": "AQIAAHAAAAAAAAAAAAAcwHsAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-29T16:31:10.761Z",
+              "Title": "RoleManagment.cshtml",
+              "DocumentMoniker": "D:\\Projects\\MVC\\FastFood\\FastFood\\Areas\\Admin\\Views\\User\\RoleManagment.cshtml",
+              "RelativeDocumentMoniker": "FastFood\\Areas\\Admin\\Views\\User\\RoleManagment.cshtml",
+              "ToolTip": "D:\\Projects\\MVC\\FastFood\\FastFood\\Areas\\Admin\\Views\\User\\RoleManagment.cshtml",
+              "RelativeToolTip": "FastFood\\Areas\\Admin\\Views\\User\\RoleManagment.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-30T07:47:30.421Z",
               "EditorCaption": ""
-            }
-          ]
-        },
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\Projects\\MVC\\FastFood\\FastFood\\Areas\\Admin\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "FastFood\\Areas\\Admin\\Controllers\\UserController.cs",
+              "ToolTip": "D:\\Projects\\MVC\\FastFood\\FastFood\\Areas\\Admin\\Controllers\\UserController.cs",
+              "RelativeToolTip": "FastFood\\Areas\\Admin\\Controllers\\UserController.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAAwFIAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-29T19:39:48.38Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Projects\\MVC\\FastFood\\FastFood\\Areas\\Admin\\Views\\User\\Index.cshtml",
+              "RelativeDocumentMoniker": "FastFood\\Areas\\Admin\\Views\\User\\Index.cshtml",
+              "ToolTip": "D:\\Projects\\MVC\\FastFood\\FastFood\\Areas\\Admin\\Views\\User\\Index.cshtml",
+              "RelativeToolTip": "FastFood\\Areas\\Admin\\Views\\User\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-29T18:10:04.046Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\Projects\\MVC\\FastFood\\FastFood\\Areas\\Admin\\Views\\Category\\Index.cshtml",
-              "RelativeDocumentMoniker": "FastFood\\Areas\\Admin\\Views\\Category\\Index.cshtml",
-              "ToolTip": "D:\\Projects\\MVC\\FastFood\\FastFood\\Areas\\Admin\\Views\\Category\\Index.cshtml",
-              "RelativeToolTip": "FastFood\\Areas\\Admin\\Views\\Category\\Index.cshtml",
-              "ViewState": "AQIAABUAAAAAAAAAAAAAAC8AAAAAAAAA",
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Projects\\MVC\\FastFood\\FastFood\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "FastFood\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Projects\\MVC\\FastFood\\FastFood\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "FastFood\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAADwAAAAAAAAAAAAAAFgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-29T17:02:30.215Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-29T18:34:30.729Z"
             }
           ]
         }

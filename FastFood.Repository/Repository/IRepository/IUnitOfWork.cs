@@ -13,6 +13,7 @@ namespace FastFood.Repository.Repository.IRepository
         IItemRepository Item { get; }
         ICouponRepository Coupon {  get; }
         IItemImageRepository ItemImage {  get; }
+        IApplicationUserRepository ApplicationUser { get; }
         void Save();
     }
 }
