@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "D:\\Projects\\MVC\\FastFood\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Projects\\MVC\\FastFood\\FastFood.Repository\\Migrations\\20241003181513_updateOrderDetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FastFood.Repository\\Migrations\\20241003181513_updateOrderDetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4BA3C413-CC2D-46D5-ACBA-5A02B5D607CE}|FastFood\\FastFood.csproj|d:\\projects\\mvc\\fastfood\\fastfood\\areas\\admin\\controllers\\itemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BA3C413-CC2D-46D5-ACBA-5A02B5D607CE}|FastFood\\FastFood.csproj|solutionrelative:fastfood\\areas\\admin\\controllers\\itemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ACE1848E-B785-4BB2-BD37-C42C00494A66}|FastFood.Models\\FastFood.Models.csproj|d:\\projects\\mvc\\fastfood\\fastfood.models\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ACE1848E-B785-4BB2-BD37-C42C00494A66}|FastFood.Models\\FastFood.Models.csproj|solutionrelative:fastfood.models\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{93ABC004-AF57-4FF1-A0F6-D05D468ED841}|FastFood.Repository\\FastFood.Repository.csproj|d:\\projects\\mvc\\fastfood\\fastfood.repository\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93ABC004-AF57-4FF1-A0F6-D05D468ED841}|FastFood.Repository\\FastFood.Repository.csproj|solutionrelative:fastfood.repository\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ACE1848E-B785-4BB2-BD37-C42C00494A66}|FastFood.Models\\FastFood.Models.csproj|d:\\projects\\mvc\\fastfood\\fastfood.models\\orderheader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ACE1848E-B785-4BB2-BD37-C42C00494A66}|FastFood.Models\\FastFood.Models.csproj|solutionrelative:fastfood.models\\orderheader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{ACE1848E-B785-4BB2-BD37-C42C00494A66}|FastFood.Models\\FastFood.Models.csproj|d:\\projects\\mvc\\fastfood\\fastfood.models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACE1848E-B785-4BB2-BD37-C42C00494A66}|FastFood.Models\\FastFood.Models.csproj|solutionrelative:fastfood.models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -47,40 +47,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "20241003181513_updateOrderDetail.cs",
-              "DocumentMoniker": "D:\\Projects\\MVC\\FastFood\\FastFood.Repository\\Migrations\\20241003181513_updateOrderDetail.cs",
-              "RelativeDocumentMoniker": "FastFood.Repository\\Migrations\\20241003181513_updateOrderDetail.cs",
-              "ToolTip": "D:\\Projects\\MVC\\FastFood\\FastFood.Repository\\Migrations\\20241003181513_updateOrderDetail.cs",
-              "RelativeToolTip": "FastFood.Repository\\Migrations\\20241003181513_updateOrderDetail.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "ItemController.cs",
+              "DocumentMoniker": "D:\\Projects\\MVC\\FastFood\\FastFood\\Areas\\Admin\\Controllers\\ItemController.cs",
+              "RelativeDocumentMoniker": "FastFood\\Areas\\Admin\\Controllers\\ItemController.cs",
+              "ToolTip": "D:\\Projects\\MVC\\FastFood\\FastFood\\Areas\\Admin\\Controllers\\ItemController.cs*",
+              "RelativeToolTip": "FastFood\\Areas\\Admin\\Controllers\\ItemController.cs*",
+              "ViewState": "AQIAAKQAAAAAAAAAAAAswLgAAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-03T18:15:13.755Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "OrderDetail.cs",
-              "DocumentMoniker": "D:\\Projects\\MVC\\FastFood\\FastFood.Models\\OrderDetail.cs",
-              "RelativeDocumentMoniker": "FastFood.Models\\OrderDetail.cs",
-              "ToolTip": "D:\\Projects\\MVC\\FastFood\\FastFood.Models\\OrderDetail.cs",
-              "RelativeToolTip": "FastFood.Models\\OrderDetail.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABcAAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-03T17:57:33.398Z",
+              "WhenOpened": "2024-10-04T20:45:48.091Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "OrderHeader.cs",
-              "DocumentMoniker": "D:\\Projects\\MVC\\FastFood\\FastFood.Models\\OrderHeader.cs",
-              "RelativeDocumentMoniker": "FastFood.Models\\OrderHeader.cs",
-              "ToolTip": "D:\\Projects\\MVC\\FastFood\\FastFood.Models\\OrderHeader.cs",
-              "RelativeToolTip": "FastFood.Models\\OrderHeader.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAvAAAA",
+              "Title": "Item.cs",
+              "DocumentMoniker": "D:\\Projects\\MVC\\FastFood\\FastFood.Models\\Item.cs",
+              "RelativeDocumentMoniker": "FastFood.Models\\Item.cs",
+              "ToolTip": "D:\\Projects\\MVC\\FastFood\\FastFood.Models\\Item.cs",
+              "RelativeToolTip": "FastFood.Models\\Item.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-01T19:29:49.057Z",
+              "WhenOpened": "2024-10-03T22:52:47.353Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\Projects\\MVC\\FastFood\\FastFood.Repository\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "FastFood.Repository\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\Projects\\MVC\\FastFood\\FastFood.Repository\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "FastFood.Repository\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAA9wCcAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T22:44:44.164Z",
               "EditorCaption": ""
             }
           ]

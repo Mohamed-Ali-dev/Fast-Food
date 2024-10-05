@@ -64,6 +64,23 @@ namespace FastFood.Repository.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Categories");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Title = "Burgers"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Title = "Drinks"
+                        },
+                        new
+                        {
+                            Id = 3,
+                            Title = "Desserts"
+                        });
                 });
 
             modelBuilder.Entity("FastFood.Models.Coupon", b =>
@@ -130,6 +147,62 @@ namespace FastFood.Repository.Migrations
                     b.HasIndex("SubCategoryId");
 
                     b.ToTable("Items");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            CategoryId = 1,
+                            Description = "Juicy beef patty with cheese, lettuce, and tomato.",
+                            Price = 5.9900000000000002,
+                            SubCategoryId = 1,
+                            Title = "Cheeseburger"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            CategoryId = 1,
+                            Description = "Grilled chicken breast with lettuce and mayo.",
+                            Price = 4.9900000000000002,
+                            SubCategoryId = 2,
+                            Title = "Chicken Sandwich"
+                        },
+                        new
+                        {
+                            Id = 3,
+                            CategoryId = 2,
+                            Description = "Chilled soft drink.",
+                            Price = 1.99,
+                            SubCategoryId = 3,
+                            Title = "Cola"
+                        },
+                        new
+                        {
+                            Id = 4,
+                            CategoryId = 2,
+                            Description = "Freshly squeezed orange juice.",
+                            Price = 2.9900000000000002,
+                            SubCategoryId = 4,
+                            Title = "Orange Juice"
+                        },
+                        new
+                        {
+                            Id = 5,
+                            CategoryId = 3,
+                            Description = "Creamy vanilla-flavored ice cream.",
+                            Price = 3.5,
+                            SubCategoryId = 5,
+                            Title = "Vanilla Ice Cream"
+                        },
+                        new
+                        {
+                            Id = 6,
+                            CategoryId = 3,
+                            Description = "Rich chocolate cake with a smooth frosting.",
+                            Price = 4.5,
+                            SubCategoryId = 6,
+                            Title = "Chocolate Cake"
+                        });
                 });
 
             modelBuilder.Entity("FastFood.Models.ItemImage", b =>
@@ -191,10 +264,6 @@ namespace FastFood.Repository.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<string>("Address")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<string>("ApplicationUserId")
                         .IsRequired()
                         .HasColumnType("nvarchar(450)");
@@ -226,9 +295,6 @@ namespace FastFood.Repository.Migrations
                     b.Property<double>("OrderTotal")
                         .HasColumnType("float");
 
-                    b.Property<DateTime>("PaymentDate")
-                        .HasColumnType("datetime2");
-
                     b.Property<string>("PaymentIntentId")
                         .HasColumnType("nvarchar(max)");
 
@@ -253,8 +319,15 @@ namespace FastFood.Repository.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("StreetAddress")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("TrackingNumber")
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("TransId")
+                        .HasColumnType("int");
 
                     b.HasKey("Id");
 
@@ -283,6 +356,44 @@ namespace FastFood.Repository.Migrations
                     b.HasIndex("CategoryId");
 
                     b.ToTable("SubCategories");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            CategoryId = 1,
+                            Title = "Beef Burgers"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            CategoryId = 1,
+                            Title = "Chicken Burgers"
+                        },
+                        new
+                        {
+                            Id = 3,
+                            CategoryId = 2,
+                            Title = "Soft Drinks"
+                        },
+                        new
+                        {
+                            Id = 4,
+                            CategoryId = 2,
+                            Title = "Juices"
+                        },
+                        new
+                        {
+                            Id = 5,
+                            CategoryId = 3,
+                            Title = "Ice Cream"
+                        },
+                        new
+                        {
+                            Id = 6,
+                            CategoryId = 3,
+                            Title = "Cakes"
+                        });
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>

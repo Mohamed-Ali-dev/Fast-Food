@@ -175,14 +175,19 @@ namespace FastFood.Areas.Admin.Controllers
             {
                 return Json(new { success = false, message = "Error while deleting" });
             }
-            //if(itemToBeDeleted.ImageUrl != null)
-            //{
-            //    var oldImage = Path.Combine(_webHostEnvironment.WebRootPath, itemToBeDeleted.ImageUrl.TrimStart('\\'));
-            //    if (System.IO.File.Exists(oldImage))
-            //    {
-            //        System.IO.File.Delete(oldImage);
-            //    }
-            //}
+            string itemPath = @"Images\Items\Item-" + id;
+            string finalPath = Path.Combine(_webHostEnvironment.WebRootPath, itemPath);
+            if(Directory.Exists(finalPath) && Directory.EnumerateFiles(finalPath).Any())
+            {
+                string[] filePaths = Directory.GetFiles(finalPath);
+                foreach(string filePath in filePaths)
+                {
+                    System.IO.File.Delete(filePath);
+                }
+
+           Directory.Delete(finalPath);
+            }
+       
         
             _unitOfWork.Item.Remove(itemToBeDeleted);
             _unitOfWork.Save();

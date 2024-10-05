@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "mk0GHYXbpCtjuQP4uMt5jE2jSUowsX1pOFn53zS2Sy0=",
+  "Hash": "TjQhcdX4MH93bFH4rNvgWMtihC+OZ5xe1yJu26PkhRk=",
   "Source": "FastFood",
   "BasePath": "_content/FastFood",
   "Mode": "Default",
@@ -1252,12 +1252,12 @@
       "OriginalItemSpec": "wwwroot\\Images\\Coupon\\3b20a7df-5b47-47a5-9e60-4d9652dbc07d.jpeg"
     },
     {
-      "Identity": "D:\\Projects\\MVC\\FastFood\\FastFood\\wwwroot\\Images\\Items\\Item-5\\04173083-7575-468d-93f1-cdfd77e00843.jpg",
+      "Identity": "D:\\Projects\\MVC\\FastFood\\FastFood\\wwwroot\\Images\\Items\\Item-1\\18fa472d-57f7-4008-a155-1b2ab1d9756c.jpg",
       "SourceId": "FastFood",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projects\\MVC\\FastFood\\FastFood\\wwwroot\\",
       "BasePath": "_content/FastFood",
-      "RelativePath": "Images/Items/Item-5/04173083-7575-468d-93f1-cdfd77e00843.jpg",
+      "RelativePath": "Images/Items/Item-1/18fa472d-57f7-4008-a155-1b2ab1d9756c.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1268,15 +1268,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Images\\Items\\Item-5\\04173083-7575-468d-93f1-cdfd77e00843.jpg"
+      "OriginalItemSpec": "wwwroot\\Images\\Items\\Item-1\\18fa472d-57f7-4008-a155-1b2ab1d9756c.jpg"
     },
     {
-      "Identity": "D:\\Projects\\MVC\\FastFood\\FastFood\\wwwroot\\Images\\Items\\Item-5\\b0202f47-9cb0-4a49-aff9-f0ac9a278eff.jpeg",
+      "Identity": "D:\\Projects\\MVC\\FastFood\\FastFood\\wwwroot\\Images\\Items\\Item-1\\39987d90-dec3-4ba0-abc5-883487b20df7.jpg",
       "SourceId": "FastFood",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projects\\MVC\\FastFood\\FastFood\\wwwroot\\",
       "BasePath": "_content/FastFood",
-      "RelativePath": "Images/Items/Item-5/b0202f47-9cb0-4a49-aff9-f0ac9a278eff.jpeg",
+      "RelativePath": "Images/Items/Item-1/39987d90-dec3-4ba0-abc5-883487b20df7.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1287,7 +1287,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Images\\Items\\Item-5\\b0202f47-9cb0-4a49-aff9-f0ac9a278eff.jpeg"
+      "OriginalItemSpec": "wwwroot\\Images\\Items\\Item-1\\39987d90-dec3-4ba0-abc5-883487b20df7.jpg"
     },
     {
       "Identity": "D:\\Projects\\MVC\\FastFood\\FastFood\\wwwroot\\js\\Category.js",
