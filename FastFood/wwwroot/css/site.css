@@ -30,8 +30,3 @@ html {
 body {
   margin-bottom: 60px;
 }
-.card-img-top {
-    width: 100%; /* Ensure the image takes up the full width of the container */
-    height: 250px; /* Set a fixed height */
-    object-fit: cover; /* This ensures the image covers the container while maintaining aspect ratio */
-}

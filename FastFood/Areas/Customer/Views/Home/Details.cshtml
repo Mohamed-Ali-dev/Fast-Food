@@ -1,5 +1,4 @@
 ﻿@model ShoppingCart 
-
 <form method="post">
     <input hidden asp-for="ItemId" />
     <div class="card shadow border-0 mt-4 mb-4">
@@ -7,7 +6,7 @@
             <div class="row">
                 <div class="col-12 text-center">
                     <h3 class="text-white text-uppercase">@Model.Item.Title</h3>
-                    <p class="text-white-50 fw-semibold mb-0">@Model.Item.Description</p>
+                    <p class="text-secondary lh-sm">@Html.Raw(Model.Item.Description)</p>
                 </div>
             </div>
         </div>
@@ -22,7 +21,6 @@
                 </div>
                 <div class="row">
                     <div class="col-12 col-lg-3 offset-lg-1 text-center mb-3">
-
                         @if (Model.Item.ItemImages != null && Model.Item.ItemImages.Count > 0)
                         {
                             <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
@@ -35,10 +33,12 @@
                                 </div>
                                 <div class="carousel-inner">
                                     @foreach (var imageWithIndex in Model.Item.ItemImages
-                                    .Select((image, index) => new { Image = image, Index = index }))
+                                   .Select((image, index) => new { Image = image, Index = index }))
                                     {
                                         <div class="@(imageWithIndex.Index == 0 ? "carousel-item active" : "carousel-item")">
-                                            <img src="@imageWithIndex.Image.ImageUrl" class="d-block w-100" alt="Item Image">
+                                            <div style="height: 300px; overflow: hidden;">
+                                                <img src="@imageWithIndex.Image.ImageUrl" class="d-block w-100 h-100" style="object-fit: cover;" alt="Item Image">
+                                            </div>
                                         </div>
                                     }
                                 </div>
