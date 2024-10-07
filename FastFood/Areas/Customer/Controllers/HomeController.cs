@@ -1,8 +1,11 @@
 using FastFood.Models;
 using FastFood.Repository.Repository.IRepository;
+using FastFood.Services;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using System.Diagnostics;
+using System.Security.Claims;
 
 namespace FastFood.Areas.Customer.Controllers
 {
@@ -26,10 +29,40 @@ namespace FastFood.Areas.Customer.Controllers
             return View(items);
 
         }
-        public IActionResult Details(int? id)
+        public IActionResult Details(int itemId)
         {
-            Item item = _unitOfWork.Item.Get(u=> u.Id == id, includeProperties: "Category,SubCategory,ItemImages");
-            return View(item);
+            ShoppingCart cart = new()
+            {
+                Item = _unitOfWork.Item.Get(u=> u.Id == itemId, includeProperties: "Category,SubCategory,ItemImages"),
+                Count = 1,
+                ItemId  = itemId
+
+            };
+            return View(cart);
+
+        }
+        [HttpPost]
+        [Authorize]
+        public IActionResult Details(ShoppingCart? shoppingCart)
+        {
+            var claimsIdentity = (ClaimsIdentity)User.Identity;
+            var userId = claimsIdentity.FindFirst(ClaimTypes.NameIdentifier).Value;
+            shoppingCart.ApplicationUserId = userId;
+            ShoppingCart cartFromDb = _unitOfWork.ShoppingCart.Get(u => u.ApplicationUserId == userId && 
+            u.ItemId ==shoppingCart.ItemId);
+            if(cartFromDb != null)
+            {
+                cartFromDb.Count += shoppingCart.Count;
+                _unitOfWork.ShoppingCart.update(cartFromDb);
+                _unitOfWork.Save();
+            }
+            else
+            {
+                _unitOfWork.ShoppingCart.Add(shoppingCart);
+                _unitOfWork.Save();
+            }           
+            TempData["success"] = "operation successful";
+            return RedirectToAction(nameof(Index));
 
         }
 

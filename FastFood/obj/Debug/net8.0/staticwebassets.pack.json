@@ -17,6 +17,46 @@
       "PackagePath": "staticwebassets\\Images\\Items\\Item-1\\39987d90-dec3-4ba0-abc5-883487b20df7.jpg"
     },
     {
+      "Id": "D:\\Projects\\MVC\\FastFood\\FastFood\\wwwroot\\Images\\Items\\Item-2\\2a11c9ba-efcc-49c5-9caf-21f42685642a.jpg",
+      "PackagePath": "staticwebassets\\Images\\Items\\Item-2\\2a11c9ba-efcc-49c5-9caf-21f42685642a.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\MVC\\FastFood\\FastFood\\wwwroot\\Images\\Items\\Item-2\\8d848dd6-98fb-4906-afd2-9aaea745f62d.jpg",
+      "PackagePath": "staticwebassets\\Images\\Items\\Item-2\\8d848dd6-98fb-4906-afd2-9aaea745f62d.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\MVC\\FastFood\\FastFood\\wwwroot\\Images\\Items\\Item-3\\582b4e35-d487-4677-a238-ecc37e6f4f96.jpg",
+      "PackagePath": "staticwebassets\\Images\\Items\\Item-3\\582b4e35-d487-4677-a238-ecc37e6f4f96.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\MVC\\FastFood\\FastFood\\wwwroot\\Images\\Items\\Item-3\\77574f2d-5ef1-42e1-8d4b-68791cb8d4df.jpg",
+      "PackagePath": "staticwebassets\\Images\\Items\\Item-3\\77574f2d-5ef1-42e1-8d4b-68791cb8d4df.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\MVC\\FastFood\\FastFood\\wwwroot\\Images\\Items\\Item-4\\1072c98f-5bf3-4d20-97a4-0279ead7ea75.jpg",
+      "PackagePath": "staticwebassets\\Images\\Items\\Item-4\\1072c98f-5bf3-4d20-97a4-0279ead7ea75.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\MVC\\FastFood\\FastFood\\wwwroot\\Images\\Items\\Item-4\\3c989e5e-ed1a-46a0-a812-e0d11363577b.jpg",
+      "PackagePath": "staticwebassets\\Images\\Items\\Item-4\\3c989e5e-ed1a-46a0-a812-e0d11363577b.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\MVC\\FastFood\\FastFood\\wwwroot\\Images\\Items\\Item-5\\16cd5404-7a9a-4e7d-aa5b-2d60ff14cf5c.jpg",
+      "PackagePath": "staticwebassets\\Images\\Items\\Item-5\\16cd5404-7a9a-4e7d-aa5b-2d60ff14cf5c.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\MVC\\FastFood\\FastFood\\wwwroot\\Images\\Items\\Item-5\\4e6a5456-a0f6-4e61-a77a-110f95f84c31.jpg",
+      "PackagePath": "staticwebassets\\Images\\Items\\Item-5\\4e6a5456-a0f6-4e61-a77a-110f95f84c31.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\MVC\\FastFood\\FastFood\\wwwroot\\Images\\Items\\Item-6\\c02b2e8f-ae97-420f-b226-91d8e8ca83f6.jpg",
+      "PackagePath": "staticwebassets\\Images\\Items\\Item-6\\c02b2e8f-ae97-420f-b226-91d8e8ca83f6.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\MVC\\FastFood\\FastFood\\wwwroot\\Images\\Items\\Item-6\\e1100f2f-06bd-4e4a-a4a9-5af306dafd5c.jpg",
+      "PackagePath": "staticwebassets\\Images\\Items\\Item-6\\e1100f2f-06bd-4e4a-a4a9-5af306dafd5c.jpg"
+    },
+    {
       "Id": "D:\\Projects\\MVC\\FastFood\\FastFood\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

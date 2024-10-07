@@ -27,6 +27,7 @@ namespace FastFood.Repository.Data
         public DbSet<OrderHeader> orderHeaders { get; set; }
         public DbSet<SubCategory> SubCategories { get; set; }
         public DbSet<ItemImage> ItemImages { get; set; }
+        public DbSet<ShoppingCart> ShoppingCarts { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {

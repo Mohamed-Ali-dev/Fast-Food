@@ -10,3 +10,4 @@ D:\Projects\MVC\FastFood\FastFood.Services\obj\Debug\net8.0\refint\FastFood.Serv
 D:\Projects\MVC\FastFood\FastFood.Services\obj\Debug\net8.0\FastFood.Services.pdb
 D:\Projects\MVC\FastFood\FastFood.Services\obj\Debug\net8.0\ref\FastFood.Services.dll
 D:\Projects\MVC\FastFood\FastFood.Services\obj\Debug\net8.0\FastFood.Services.csproj.AssemblyReference.cache
+D:\Projects\MVC\FastFood\FastFood.Services\obj\Debug\net8.0\FastFood.Services.sourcelink.json
