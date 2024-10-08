@@ -3,20 +3,12 @@
   "WorkspaceRootPath": "D:\\Projects\\MVC\\FastFood\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4BA3C413-CC2D-46D5-ACBA-5A02B5D607CE}|FastFood\\FastFood.csproj|d:\\projects\\mvc\\fastfood\\fastfood\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4BA3C413-CC2D-46D5-ACBA-5A02B5D607CE}|FastFood\\FastFood.csproj|solutionrelative:fastfood\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4BA3C413-CC2D-46D5-ACBA-5A02B5D607CE}|FastFood\\FastFood.csproj|d:\\projects\\mvc\\fastfood\\fastfood\\areas\\customer\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BA3C413-CC2D-46D5-ACBA-5A02B5D607CE}|FastFood\\FastFood.csproj|solutionrelative:fastfood\\areas\\customer\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4BA3C413-CC2D-46D5-ACBA-5A02B5D607CE}|FastFood\\FastFood.csproj|d:\\projects\\mvc\\fastfood\\fastfood\\viewcomponents\\shoppingcartviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4BA3C413-CC2D-46D5-ACBA-5A02B5D607CE}|FastFood\\FastFood.csproj|solutionrelative:fastfood\\viewcomponents\\shoppingcartviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4BA3C413-CC2D-46D5-ACBA-5A02B5D607CE}|FastFood\\FastFood.csproj|d:\\projects\\mvc\\fastfood\\fastfood\\views\\shared\\components\\shoppingcart\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4BA3C413-CC2D-46D5-ACBA-5A02B5D607CE}|FastFood\\FastFood.csproj|solutionrelative:fastfood\\views\\shared\\components\\shoppingcart\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4BA3C413-CC2D-46D5-ACBA-5A02B5D607CE}|FastFood\\FastFood.csproj|d:\\projects\\mvc\\fastfood\\fastfood\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4BA3C413-CC2D-46D5-ACBA-5A02B5D607CE}|FastFood\\FastFood.csproj|solutionrelative:fastfood\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{4BA3C413-CC2D-46D5-ACBA-5A02B5D607CE}|FastFood\\FastFood.csproj|d:\\projects\\mvc\\fastfood\\fastfood\\areas\\customer\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4BA3C413-CC2D-46D5-ACBA-5A02B5D607CE}|FastFood\\FastFood.csproj|solutionrelative:fastfood\\areas\\customer\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,54 +46,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Projects\\MVC\\FastFood\\FastFood\\Program.cs",
-              "RelativeDocumentMoniker": "FastFood\\Program.cs",
-              "ToolTip": "D:\\Projects\\MVC\\FastFood\\FastFood\\Program.cs*",
-              "RelativeToolTip": "FastFood\\Program.cs*",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAAABYAAAA1AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T04:29:26.802Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ShoppingCartViewComponent.cs",
-              "DocumentMoniker": "D:\\Projects\\MVC\\FastFood\\FastFood\\ViewComponents\\ShoppingCartViewComponent.cs",
-              "RelativeDocumentMoniker": "FastFood\\ViewComponents\\ShoppingCartViewComponent.cs",
-              "ToolTip": "D:\\Projects\\MVC\\FastFood\\FastFood\\ViewComponents\\ShoppingCartViewComponent.cs",
-              "RelativeToolTip": "FastFood\\ViewComponents\\ShoppingCartViewComponent.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAIwA0AAAAlAAAA",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Projects\\MVC\\FastFood\\FastFood\\Areas\\Customer\\Views\\Cart\\Index.cshtml",
+              "RelativeDocumentMoniker": "FastFood\\Areas\\Customer\\Views\\Cart\\Index.cshtml",
+              "ToolTip": "D:\\Projects\\MVC\\FastFood\\FastFood\\Areas\\Customer\\Views\\Cart\\Index.cshtml",
+              "RelativeToolTip": "FastFood\\Areas\\Customer\\Views\\Cart\\Index.cshtml",
+              "ViewState": "AQIAADMAAAAAAAAAAAAAAAQAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-08T04:39:42.896Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "D:\\Projects\\MVC\\FastFood\\FastFood\\Areas\\Customer\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "FastFood\\Areas\\Customer\\Controllers\\CartController.cs",
+              "ToolTip": "D:\\Projects\\MVC\\FastFood\\FastFood\\Areas\\Customer\\Controllers\\CartController.cs*",
+              "RelativeToolTip": "FastFood\\Areas\\Customer\\Controllers\\CartController.cs*",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAwCMAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T04:15:23.339Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\Projects\\MVC\\FastFood\\FastFood\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "FastFood\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\Projects\\MVC\\FastFood\\FastFood\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "FastFood\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAACoAAAAAAAAAAAAAAEYAAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-08T04:12:53.93Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Default.cshtml",
-              "DocumentMoniker": "D:\\Projects\\MVC\\FastFood\\FastFood\\Views\\Shared\\Components\\ShoppingCart\\Default.cshtml",
-              "RelativeDocumentMoniker": "FastFood\\Views\\Shared\\Components\\ShoppingCart\\Default.cshtml",
-              "ToolTip": "D:\\Projects\\MVC\\FastFood\\FastFood\\Views\\Shared\\Components\\ShoppingCart\\Default.cshtml",
-              "RelativeToolTip": "FastFood\\Views\\Shared\\Components\\ShoppingCart\\Default.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-08T04:12:22.047Z",
+              "WhenOpened": "2024-10-08T04:39:23.333Z",
               "EditorCaption": ""
             }
           ]
