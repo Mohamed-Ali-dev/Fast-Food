@@ -264,6 +264,10 @@ namespace FastFood.Repository.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
+                    b.Property<string>("Address")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("ApplicationUserId")
                         .IsRequired()
                         .HasColumnType("nvarchar(450)");
@@ -272,13 +276,6 @@ namespace FastFood.Repository.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("City")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<double>("CouponCode")
-                        .HasColumnType("float");
-
-                    b.Property<string>("CouponDis")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
@@ -294,6 +291,9 @@ namespace FastFood.Repository.Migrations
 
                     b.Property<double>("OrderTotal")
                         .HasColumnType("float");
+
+                    b.Property<DateTime>("PaymentDate")
+                        .HasColumnType("datetime2");
 
                     b.Property<string>("PaymentIntentId")
                         .HasColumnType("nvarchar(max)");
@@ -319,15 +319,8 @@ namespace FastFood.Repository.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("StreetAddress")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<string>("TrackingNumber")
                         .HasColumnType("nvarchar(max)");
-
-                    b.Property<int>("TransId")
-                        .HasColumnType("int");
 
                     b.HasKey("Id");
 

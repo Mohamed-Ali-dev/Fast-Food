@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace FastFood.Repository.Repository
 {
-    public class UnitOfWork : IUnitOfWork
+	public class UnitOfWork : IUnitOfWork
     {
         public ICategoryRepository Category { get; private set; }
 
@@ -20,8 +20,10 @@ namespace FastFood.Repository.Repository
         public IItemImageRepository ItemImage { get; private set; }
         public IApplicationUserRepository ApplicationUser { get; private set; }
         public IShoppingCartRepository ShoppingCart { get; private set; }
+        public IOrderHeaderRepository OrderHeader { get; private set; }
+		public IOrderDetailRepository OrderDetail { get; private set; }
 
-        private readonly ApplicationDbContext _db;
+		private readonly ApplicationDbContext _db;
 
         public UnitOfWork( ApplicationDbContext db)
         {
@@ -34,6 +36,8 @@ namespace FastFood.Repository.Repository
             ItemImage = new ItemImageRepository(_db);
             ApplicationUser = new ApplicationUserRepository(_db);
             ShoppingCart = new ShoppingCartRepository(_db);
+			OrderDetail = new OrderDetailRepository(_db);
+            OrderHeader = new OrderHeaderRepository(_db);
         }
 
         public void Save()

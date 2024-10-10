@@ -15,6 +15,8 @@ namespace FastFood.Repository.Repository.IRepository
         IItemImageRepository ItemImage {  get; }
         IApplicationUserRepository ApplicationUser { get; }
         IShoppingCartRepository ShoppingCart { get; }
+        IOrderDetailRepository OrderDetail { get; }
+        IOrderHeaderRepository OrderHeader { get; }
         void Save();
     }
 }

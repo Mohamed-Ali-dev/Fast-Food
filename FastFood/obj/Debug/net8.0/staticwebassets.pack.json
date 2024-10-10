@@ -57,6 +57,14 @@
       "PackagePath": "staticwebassets\\Images\\Items\\Item-6\\e1100f2f-06bd-4e4a-a4a9-5af306dafd5c.jpg"
     },
     {
+      "Id": "D:\\Projects\\MVC\\FastFood\\FastFood\\wwwroot\\Images\\book.png",
+      "PackagePath": "staticwebassets\\Images\\book.png"
+    },
+    {
+      "Id": "D:\\Projects\\MVC\\FastFood\\FastFood\\wwwroot\\Images\\lawn_leaf.jpg",
+      "PackagePath": "staticwebassets\\Images\\lawn_leaf.jpg"
+    },
+    {
       "Id": "D:\\Projects\\MVC\\FastFood\\FastFood\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

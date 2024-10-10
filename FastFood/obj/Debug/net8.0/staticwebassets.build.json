@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "sxsasQJn6XMSXEDMj9OITG9zwpR5OkJscexiSqz5lmE=",
+  "Hash": "FoQREBYmKAzq12dhPHnZvLMiVYQiRUjcXqeZFKE3dPQ=",
   "Source": "FastFood",
   "BasePath": "_content/FastFood",
   "Mode": "Default",
@@ -1233,6 +1233,25 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
+      "Identity": "D:\\Projects\\MVC\\FastFood\\FastFood\\wwwroot\\Images\\book.png",
+      "SourceId": "FastFood",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\MVC\\FastFood\\FastFood\\wwwroot\\",
+      "BasePath": "_content/FastFood",
+      "RelativePath": "Images/book.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\book.png"
+    },
+    {
       "Identity": "D:\\Projects\\MVC\\FastFood\\FastFood\\wwwroot\\Images\\Coupon\\3b20a7df-5b47-47a5-9e60-4d9652dbc07d.jpeg",
       "SourceId": "FastFood",
       "SourceType": "Discovered",
@@ -1478,6 +1497,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\Items\\Item-6\\e1100f2f-06bd-4e4a-a4a9-5af306dafd5c.jpg"
+    },
+    {
+      "Identity": "D:\\Projects\\MVC\\FastFood\\FastFood\\wwwroot\\Images\\lawn_leaf.jpg",
+      "SourceId": "FastFood",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\MVC\\FastFood\\FastFood\\wwwroot\\",
+      "BasePath": "_content/FastFood",
+      "RelativePath": "Images/lawn_leaf.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\lawn_leaf.jpg"
     },
     {
       "Identity": "D:\\Projects\\MVC\\FastFood\\FastFood\\wwwroot\\js\\Category.js",
