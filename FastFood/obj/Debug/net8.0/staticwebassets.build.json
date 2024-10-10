@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "FoQREBYmKAzq12dhPHnZvLMiVYQiRUjcXqeZFKE3dPQ=",
+  "Hash": "7FZ/EAB+NFxM/hQpj9Pq8TWQp+gaxiwQfyszOmtXDUQ=",
   "Source": "FastFood",
   "BasePath": "_content/FastFood",
   "Mode": "Default",
@@ -1554,6 +1554,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\Item.js"
+    },
+    {
+      "Identity": "D:\\Projects\\MVC\\FastFood\\FastFood\\wwwroot\\js\\Order.js",
+      "SourceId": "FastFood",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\MVC\\FastFood\\FastFood\\wwwroot\\",
+      "BasePath": "_content/FastFood",
+      "RelativePath": "js/Order.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\Order.js"
     },
     {
       "Identity": "D:\\Projects\\MVC\\FastFood\\FastFood\\wwwroot\\js\\site.js",
