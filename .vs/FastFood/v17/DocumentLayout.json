@@ -1,7 +1,20 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\Projects\\MVC\\FastFood\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4BA3C413-CC2D-46D5-ACBA-5A02B5D607CE}|FastFood\\FastFood.csproj|d:\\projects\\mvc\\fastfood\\fastfood\\areas\\admin\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BA3C413-CC2D-46D5-ACBA-5A02B5D607CE}|FastFood\\FastFood.csproj|solutionrelative:fastfood\\areas\\admin\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BA3C413-CC2D-46D5-ACBA-5A02B5D607CE}|FastFood\\FastFood.csproj|d:\\projects\\mvc\\fastfood\\fastfood\\areas\\admin\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4BA3C413-CC2D-46D5-ACBA-5A02B5D607CE}|FastFood\\FastFood.csproj|solutionrelative:fastfood\\areas\\admin\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BA3C413-CC2D-46D5-ACBA-5A02B5D607CE}|FastFood\\FastFood.csproj|d:\\projects\\mvc\\fastfood\\fastfood\\areas\\admin\\views\\order\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4BA3C413-CC2D-46D5-ACBA-5A02B5D607CE}|FastFood\\FastFood.csproj|solutionrelative:fastfood\\areas\\admin\\views\\order\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,6 +43,45 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "D:\\Projects\\MVC\\FastFood\\FastFood\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "FastFood\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "ToolTip": "D:\\Projects\\MVC\\FastFood\\FastFood\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "FastFood\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-10T11:00:55.799Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\Projects\\MVC\\FastFood\\FastFood\\Areas\\Admin\\Views\\Order\\Details.cshtml",
+              "RelativeDocumentMoniker": "FastFood\\Areas\\Admin\\Views\\Order\\Details.cshtml",
+              "ToolTip": "D:\\Projects\\MVC\\FastFood\\FastFood\\Areas\\Admin\\Views\\Order\\Details.cshtml",
+              "RelativeToolTip": "FastFood\\Areas\\Admin\\Views\\Order\\Details.cshtml",
+              "ViewState": "AQIAALQAAAAAAAAAAAAAAL8AAABKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-10T10:59:28.608Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "D:\\Projects\\MVC\\FastFood\\FastFood\\Areas\\Admin\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "FastFood\\Areas\\Admin\\Controllers\\OrderController.cs",
+              "ToolTip": "D:\\Projects\\MVC\\FastFood\\FastFood\\Areas\\Admin\\Controllers\\OrderController.cs*",
+              "RelativeToolTip": "FastFood\\Areas\\Admin\\Controllers\\OrderController.cs*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T10:52:04.879Z",
+              "EditorCaption": ""
             }
           ]
         }

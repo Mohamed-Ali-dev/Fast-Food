@@ -12,6 +12,7 @@ namespace FastFood.Areas.Admin.Controllers
     [Authorize]
     public class OrderController : Controller
     {
+        [BindProperty]
         public OrderVM OrderVM { get; set; }
         private readonly IUnitOfWork _unitOfWork;
 
@@ -25,6 +26,50 @@ namespace FastFood.Areas.Admin.Controllers
          
             return View();
         }
+
+        public IActionResult Details(int orderId)
+        {
+            OrderVM = new()
+            {
+                OrderHeader = _unitOfWork.OrderHeader
+                .Get(u => u.Id == orderId, includeProperties: "ApplicationUser"),
+                OrderDetail = _unitOfWork.OrderDetail
+                .GetAll(u => u.OrderHeaderId == orderId, includeProperties:"Item")
+            };
+            return View(OrderVM);
+        }
+        [HttpPost]
+        [Authorize(Roles = SD.Role_Admin + "," + SD.Role_Manager)]
+        public IActionResult UpdateOrderDetail()
+        {
+            var orderHeaderFromDb = _unitOfWork.OrderHeader.Get(u => u.Id == OrderVM.OrderHeader.Id);
+            if(orderHeaderFromDb == null)
+            {
+                return NotFound();
+            }
+            orderHeaderFromDb.Name = OrderVM.OrderHeader.Name;
+            orderHeaderFromDb.PhoneNumber = OrderVM.OrderHeader.PhoneNumber;
+            orderHeaderFromDb.Address = OrderVM.OrderHeader.Address;
+            orderHeaderFromDb.City = OrderVM.OrderHeader.City;
+            orderHeaderFromDb.State = OrderVM.OrderHeader.State;
+            orderHeaderFromDb.PostalCode = OrderVM.OrderHeader.PostalCode;
+            if (!String.IsNullOrEmpty(OrderVM.OrderHeader.Carrier))
+            {
+                orderHeaderFromDb.Carrier = OrderVM.OrderHeader.Carrier;
+
+            }
+            if (!String.IsNullOrEmpty(OrderVM.OrderHeader.TrackingNumber))
+            {
+                orderHeaderFromDb.TrackingNumber = OrderVM.OrderHeader.TrackingNumber;
+
+            }
+            _unitOfWork.OrderHeader.Update(orderHeaderFromDb);
+            _unitOfWork.Save();
+            TempData["success"] = "Order Details Updated Successfully";
+            return RedirectToAction(nameof(Details), new { OrderId = orderHeaderFromDb.Id });
+
+        }
+
         #region API CALLS
         [HttpGet]
         public IActionResult GetAll(string status)

@@ -53,7 +53,6 @@ D:\Projects\MVC\FastFood\FastFood\bin\Debug\net8.0\System.Configuration.Configur
 D:\Projects\MVC\FastFood\FastFood\bin\Debug\net8.0\System.Reflection.MetadataLoadContext.dll
 D:\Projects\MVC\FastFood\FastFood\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
 D:\Projects\MVC\FastFood\FastFood\bin\Debug\net8.0\System.Security.Permissions.dll
-D:\Projects\MVC\FastFood\FastFood\bin\Debug\net8.0\System.Text.Json.dll
 D:\Projects\MVC\FastFood\FastFood\bin\Debug\net8.0\af\Humanizer.resources.dll
 D:\Projects\MVC\FastFood\FastFood\bin\Debug\net8.0\ar\Humanizer.resources.dll
 D:\Projects\MVC\FastFood\FastFood\bin\Debug\net8.0\az\Humanizer.resources.dll
@@ -289,3 +288,6 @@ D:\Projects\MVC\FastFood\FastFood\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
 D:\Projects\MVC\FastFood\FastFood\bin\Debug\net8.0\libman.json
 D:\Projects\MVC\FastFood\FastFood\obj\Debug\net8.0\FastFood.sourcelink.json
 D:\Projects\MVC\FastFood\FastFood\bin\Debug\net8.0\Stripe.net.dll
+D:\Projects\MVC\FastFood\FastFood\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Projects\MVC\FastFood\FastFood\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Projects\MVC\FastFood\FastFood\bin\Debug\net8.0\System.Formats.Asn1.dll
