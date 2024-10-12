@@ -16,7 +16,6 @@ namespace FastFood.Repository.Repository
         public ISubCategoryRepository SubCategory { get; private set; } 
         public IItemRepository Item { get; private set; }
 
-        public ICouponRepository Coupon { get; private set; }
         public IItemImageRepository ItemImage { get; private set; }
         public IApplicationUserRepository ApplicationUser { get; private set; }
         public IShoppingCartRepository ShoppingCart { get; private set; }
@@ -32,7 +31,6 @@ namespace FastFood.Repository.Repository
             Category = new CategoryRepository(_db);
             SubCategory = new SubCategoryRepository(_db);
             Item = new ItemRepository(_db);
-            Coupon = new CouponRepository(_db);
             ItemImage = new ItemImageRepository(_db);
             ApplicationUser = new ApplicationUserRepository(_db);
             ShoppingCart = new ShoppingCartRepository(_db);

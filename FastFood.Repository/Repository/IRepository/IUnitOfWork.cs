@@ -11,7 +11,6 @@ namespace FastFood.Repository.Repository.IRepository
         ICategoryRepository Category { get; }
         ISubCategoryRepository SubCategory { get; }
         IItemRepository Item { get; }
-        ICouponRepository Coupon {  get; }
         IItemImageRepository ItemImage {  get; }
         IApplicationUserRepository ApplicationUser { get; }
         IShoppingCartRepository ShoppingCart { get; }

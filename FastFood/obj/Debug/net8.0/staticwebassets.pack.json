@@ -5,10 +5,6 @@
       "PackagePath": "staticwebassets\\FastFood.bundle.scp.css"
     },
     {
-      "Id": "D:\\Projects\\MVC\\FastFood\\FastFood\\wwwroot\\Images\\Coupon\\3b20a7df-5b47-47a5-9e60-4d9652dbc07d.jpeg",
-      "PackagePath": "staticwebassets\\Images\\Coupon\\3b20a7df-5b47-47a5-9e60-4d9652dbc07d.jpeg"
-    },
-    {
       "Id": "D:\\Projects\\MVC\\FastFood\\FastFood\\wwwroot\\Images\\Items\\Item-1\\18fa472d-57f7-4008-a155-1b2ab1d9756c.jpg",
       "PackagePath": "staticwebassets\\Images\\Items\\Item-1\\18fa472d-57f7-4008-a155-1b2ab1d9756c.jpg"
     },

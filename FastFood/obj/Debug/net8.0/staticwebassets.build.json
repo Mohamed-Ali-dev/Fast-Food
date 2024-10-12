@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "7FZ/EAB+NFxM/hQpj9Pq8TWQp+gaxiwQfyszOmtXDUQ=",
+  "Hash": "TFs2x4fX5SKejqxMZd8yDD8pLo/AO1r6ailP+8m1nZo=",
   "Source": "FastFood",
   "BasePath": "_content/FastFood",
   "Mode": "Default",
@@ -1250,25 +1250,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\book.png"
-    },
-    {
-      "Identity": "D:\\Projects\\MVC\\FastFood\\FastFood\\wwwroot\\Images\\Coupon\\3b20a7df-5b47-47a5-9e60-4d9652dbc07d.jpeg",
-      "SourceId": "FastFood",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Projects\\MVC\\FastFood\\FastFood\\wwwroot\\",
-      "BasePath": "_content/FastFood",
-      "RelativePath": "Images/Coupon/3b20a7df-5b47-47a5-9e60-4d9652dbc07d.jpeg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Images\\Coupon\\3b20a7df-5b47-47a5-9e60-4d9652dbc07d.jpeg"
     },
     {
       "Identity": "D:\\Projects\\MVC\\FastFood\\FastFood\\wwwroot\\Images\\Items\\Item-1\\18fa472d-57f7-4008-a155-1b2ab1d9756c.jpg",

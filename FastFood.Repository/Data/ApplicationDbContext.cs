@@ -21,7 +21,6 @@ namespace FastFood.Repository.Data
         public DbSet<ApplicationUser> ApplicationUsers { get; set; }
         public DbSet<Cart> Carts { get; set; }
         public DbSet<Category> Categories { get; set; }
-        public DbSet<Coupon> Coupons { get; set; }
         public DbSet<Item> Items { get; set; }
         public DbSet<OrderDetail> OrderDetails { get; set; }
         public DbSet<OrderHeader> orderHeaders { get; set; }
