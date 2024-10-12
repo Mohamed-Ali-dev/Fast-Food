@@ -291,3 +291,4 @@ D:\Projects\MVC\FastFood\FastFood\bin\Debug\net8.0\Stripe.net.dll
 D:\Projects\MVC\FastFood\FastFood\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
 D:\Projects\MVC\FastFood\FastFood\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 D:\Projects\MVC\FastFood\FastFood\bin\Debug\net8.0\System.Formats.Asn1.dll
+D:\Projects\MVC\FastFood\FastFood\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.Facebook.dll
