@@ -130,7 +130,7 @@ namespace FastFood.Areas.Identity.Pages.Account
                 RoleList = _roleManager.Roles.Select(x => x.Name).Select(i => new SelectListItem
                 {
                     Text = i,
-                    Value =i,
+                    Value = i,
                 })
             };
 
@@ -159,7 +159,7 @@ namespace FastFood.Areas.Identity.Pages.Account
                 if (result.Succeeded)
                 {
                     _logger.LogInformation("User created a new account with password.");
-                    if(!string.IsNullOrEmpty(Input.Role))
+                    if (!string.IsNullOrEmpty(Input.Role))
                     {
                         await _userManager.AddToRoleAsync(user, Input.Role);
                     }
@@ -186,41 +186,48 @@ namespace FastFood.Areas.Identity.Pages.Account
                     }
                     else
                     {
-                        await _signInManager.SignInAsync(user, isPersistent: false);
+
+                        if(User.IsInRole(SD.Role_Admin)){
+                            TempData["success"] = "New User Created Successfully";
+                        }
+                        else {
+                            await _signInManager.SignInAsync(user, isPersistent: false);
+                        }
+
                         return LocalRedirect(returnUrl);
+                        }
+                    }
+                    foreach (var error in result.Errors)
+                    {
+                        ModelState.AddModelError(string.Empty, error.Description);
                     }
                 }
-                foreach (var error in result.Errors)
+
+                // If we got this far, something failed, redisplay form
+                return Page();
+            }
+
+            private ApplicationUser CreateUser()
+            {
+                try
                 {
-                    ModelState.AddModelError(string.Empty, error.Description);
+                    return Activator.CreateInstance<ApplicationUser>();
+                }
+                catch
+                {
+                    throw new InvalidOperationException($"Can't create an instance of '{nameof(IdentityUser)}'. " +
+                        $"Ensure that '{nameof(IdentityUser)}' is not an abstract class and has a parameterless constructor, or alternatively " +
+                        $"override the register page in /Areas/Identity/Pages/Account/Register.cshtml");
                 }
             }
 
-            // If we got this far, something failed, redisplay form
-            return Page();
-        }
-
-        private ApplicationUser CreateUser()
-        {
-            try
+            private IUserEmailStore<IdentityUser> GetEmailStore()
             {
-                return Activator.CreateInstance<ApplicationUser>();
+                if (!_userManager.SupportsUserEmail)
+                {
+                    throw new NotSupportedException("The default UI requires a user store with email support.");
+                }
+                return (IUserEmailStore<IdentityUser>)_userStore;
             }
-            catch
-            {
-                throw new InvalidOperationException($"Can't create an instance of '{nameof(IdentityUser)}'. " +
-                    $"Ensure that '{nameof(IdentityUser)}' is not an abstract class and has a parameterless constructor, or alternatively " +
-                    $"override the register page in /Areas/Identity/Pages/Account/Register.cshtml");
-            }
-        }
-
-        private IUserEmailStore<IdentityUser> GetEmailStore()
-        {
-            if (!_userManager.SupportsUserEmail)
-            {
-                throw new NotSupportedException("The default UI requires a user store with email support.");
-            }
-            return (IUserEmailStore<IdentityUser>)_userStore;
         }
     }
-}

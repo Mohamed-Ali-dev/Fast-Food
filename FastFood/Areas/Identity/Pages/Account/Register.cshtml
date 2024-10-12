@@ -1,4 +1,5 @@
 ﻿@page
+@using FastFood.Services
 @model RegisterModel
 
 
@@ -6,7 +7,15 @@
     <div class="card-header bg-secondary bg-gradient ml-0 py-4 ">
         <div class="row">
             <div class="col-12 text-center">
-                <h2 class="py-2 text-white">Register</h2>
+                @if (User.IsInRole(SD.Role_Admin))
+                {
+                    <h2 class="py-2 text-white">Register - ADMIN PORTAL</h2>
+
+                }
+                else
+                {
+                    <h2 class="py-2 text-white">Register</h2>
+                }
             </div>
         </div>
     </div>
@@ -42,9 +51,9 @@
                         <label asp-for="Input.ConfirmPassword" class="ms-2 text-muted">Confirm Password</label>
                         <span asp-validation-for="Input.ConfirmPassword" class="text-danger"></span>
                     </div>
-            
+
                     <div class="form-floating mb-3 col-md-6">
-                        <input asp-for="Input.City" class="form-control"  placeholder="name@example.com" />
+                        <input asp-for="Input.City" class="form-control" placeholder="name@example.com" />
                         <label asp-for="Input.City" class="ms-2 text-muted">City</label>
                         <span asp-validation-for="Input.City" class="text-danger"></span>
                     </div>
@@ -54,26 +63,34 @@
                         <span asp-validation-for="Input.State" class="text-danger"></span>
                     </div>
                     <div class="form-floating mb-3 col-md-6">
-                        <input asp-for="Input.Address" class="form-control"  placeholder="name@example.com" />
+                        <input asp-for="Input.Address" class="form-control" placeholder="name@example.com" />
                         <label asp-for="Input.Address" class="ms-2 text-muted">Address</label>
                         <span asp-validation-for="Input.Address" class="text-danger"></span>
                     </div>
                     <div class="form-floating mb-3 col-md-6">
-                        <input asp-for="Input.PostalCode" class="form-control"  placeholder="name@example.com" />
+                        <input asp-for="Input.PostalCode" class="form-control" placeholder="name@example.com" />
                         <label asp-for="Input.PostalCode" class="ms-2 text-muted">Postal Code</label>
                         <span asp-validation-for="Input.PostalCode" class="text-danger"></span>
                     </div>
-             
-                    <div class="form-floating mb-3 col-md-6">
-                        <select asp-for="Input.Role" asp-items="Model.Input.RoleList" class="form-select">
-                            <option disabled selected>-Select Role-</option>
-                        </select>
-                    </div >
+                    @if (User.IsInRole(SD.Role_Admin))
+                    {
+                        <div class="form-floating mb-3 col-md-6">
+                            <select asp-for="Input.Role" asp-items="Model.Input.RoleList" class="form-select">
+                                <option disabled selected>-Select Role-</option>
+                            </select>
+                        </div>
+                    }
+
                     <div class="col-12">
-                    <button id="registerSubmit" type="submit" class="w-100 btn btn-lg btn-primary">Register</button>
+                        <button id="registerSubmit" type="submit" class="w-100 btn btn-lg btn-primary">Register</button>
                     </div>
                 </form>
             </div>
+            @if (User.IsInRole(SD.Role_Admin))
+            {
+
+            }
+
             <div class="col-md-12 p-3 text-center">
                 <section>
                     <p class="divider-text d-flex pt-3">Or</p>
