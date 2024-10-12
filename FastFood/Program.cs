@@ -7,6 +7,7 @@ using FastFood.Repository.Repository.IRepository;
 using FastFood.Repository.Repository;
 using Newtonsoft.Json;
 using Stripe;
+using FastFood.Repository.DbInitializer;
 var builder = WebApplication.CreateBuilder(args);
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection") ?? 
     throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");
@@ -38,6 +39,7 @@ builder.Services.AddSession(options =>
     options.Cookie.HttpOnly = true;
     options.Cookie.IsEssential = true;
 });
+builder.Services.AddScoped<IDbInitializer,DbInitializer>();
 builder.Services.AddRazorPages();
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 builder.Services.AddScoped<IEmailSender,EmailSender>();
@@ -63,9 +65,19 @@ app.UseRouting();
 
 app.UseAuthorization();
 app.UseSession();
+SeadDataBase();
 app.MapRazorPages();
 app.MapControllerRoute(
     name: "default",
     pattern: "{area=Customer}/{controller=Home}/{action=Index}/{id?}");
 
 app.Run();
+
+void SeadDataBase()
+{
+    using (var scope = app.Services.CreateScope())
+    {
+        var DdbInitializer = scope.ServiceProvider.GetRequiredService<IDbInitializer>();
+        DdbInitializer.Initialize();
+    }
+}

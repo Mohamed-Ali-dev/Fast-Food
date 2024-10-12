@@ -114,6 +114,9 @@
             "projectReferences": {
               "D:\\Projects\\MVC\\FastFood\\FastFood.Models\\FastFood.Models.csproj": {
                 "projectPath": "D:\\Projects\\MVC\\FastFood\\FastFood.Models\\FastFood.Models.csproj"
+              },
+              "D:\\Projects\\MVC\\FastFood\\FastFood.Services\\FastFood.Services.csproj": {
+                "projectPath": "D:\\Projects\\MVC\\FastFood\\FastFood.Services\\FastFood.Services.csproj"
               }
             }
           }

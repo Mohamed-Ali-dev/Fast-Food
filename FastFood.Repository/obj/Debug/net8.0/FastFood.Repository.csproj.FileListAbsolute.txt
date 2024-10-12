@@ -16,3 +16,5 @@ D:\Projects\MVC\FastFood\FastFood.Repository\obj\Debug\net8.0\FastFood.Repositor
 D:\Projects\MVC\FastFood\FastFood.Repository\obj\Debug\net8.0\FastFood.Repository.genruntimeconfig.cache
 D:\Projects\MVC\FastFood\FastFood.Repository\obj\Debug\net8.0\ref\FastFood.Repository.dll
 D:\Projects\MVC\FastFood\FastFood.Repository\obj\Debug\net8.0\FastFood.Repository.sourcelink.json
+D:\Projects\MVC\FastFood\FastFood.Repository\bin\Debug\net8.0\FastFood.Services.dll
+D:\Projects\MVC\FastFood\FastFood.Repository\bin\Debug\net8.0\FastFood.Services.pdb

@@ -2971,6 +2971,7 @@
       "FastFood.Repository/1.0.0": {
         "dependencies": {
           "FastFood.Models": "1.0.0",
+          "FastFood.Services": "1.0.0",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "8.0.8",
           "Microsoft.EntityFrameworkCore": "8.0.8",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.8"

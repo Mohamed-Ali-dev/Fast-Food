@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "D:\\Projects\\MVC\\FastFood\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4BA3C413-CC2D-46D5-ACBA-5A02B5D607CE}|FastFood\\FastFood.csproj|d:\\projects\\mvc\\fastfood\\fastfood\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4BA3C413-CC2D-46D5-ACBA-5A02B5D607CE}|FastFood\\FastFood.csproj|solutionrelative:fastfood\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{4BA3C413-CC2D-46D5-ACBA-5A02B5D607CE}|FastFood\\FastFood.csproj|d:\\projects\\mvc\\fastfood\\fastfood\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4BA3C413-CC2D-46D5-ACBA-5A02B5D607CE}|FastFood\\FastFood.csproj|solutionrelative:fastfood\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4BA3C413-CC2D-46D5-ACBA-5A02B5D607CE}|FastFood\\FastFood.csproj|d:\\projects\\mvc\\fastfood\\fastfood\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4BA3C413-CC2D-46D5-ACBA-5A02B5D607CE}|FastFood\\FastFood.csproj|solutionrelative:fastfood\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{93ABC004-AF57-4FF1-A0F6-D05D468ED841}|FastFood.Repository\\FastFood.Repository.csproj|d:\\projects\\mvc\\fastfood\\fastfood.repository\\dbinitializer\\idbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93ABC004-AF57-4FF1-A0F6-D05D468ED841}|FastFood.Repository\\FastFood.Repository.csproj|solutionrelative:fastfood.repository\\dbinitializer\\idbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4BA3C413-CC2D-46D5-ACBA-5A02B5D607CE}|FastFood\\FastFood.csproj|d:\\projects\\mvc\\fastfood\\fastfood\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4BA3C413-CC2D-46D5-ACBA-5A02B5D607CE}|FastFood\\FastFood.csproj|solutionrelative:fastfood\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{93ABC004-AF57-4FF1-A0F6-D05D468ED841}|FastFood.Repository\\FastFood.Repository.csproj|d:\\projects\\mvc\\fastfood\\fastfood.repository\\dbinitializer\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93ABC004-AF57-4FF1-A0F6-D05D468ED841}|FastFood.Repository\\FastFood.Repository.csproj|solutionrelative:fastfood.repository\\dbinitializer\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BA3C413-CC2D-46D5-ACBA-5A02B5D607CE}|FastFood\\FastFood.csproj|d:\\projects\\mvc\\fastfood\\fastfood\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BA3C413-CC2D-46D5-ACBA-5A02B5D607CE}|FastFood\\FastFood.csproj|solutionrelative:fastfood\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,42 +54,54 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Register.cshtml.cs",
-              "DocumentMoniker": "D:\\Projects\\MVC\\FastFood\\FastFood\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
-              "RelativeDocumentMoniker": "FastFood\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
-              "ToolTip": "D:\\Projects\\MVC\\FastFood\\FastFood\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
-              "RelativeToolTip": "FastFood\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
-              "ViewState": "AQIAALIAAAAAAAAAAAAAwLwAAAAAAAAA",
+              "DocumentIndex": 2,
+              "Title": "DbInitializer.cs",
+              "DocumentMoniker": "D:\\Projects\\MVC\\FastFood\\FastFood.Repository\\DbInitializer\\DbInitializer.cs",
+              "RelativeDocumentMoniker": "FastFood.Repository\\DbInitializer\\DbInitializer.cs",
+              "ToolTip": "D:\\Projects\\MVC\\FastFood\\FastFood.Repository\\DbInitializer\\DbInitializer.cs",
+              "RelativeToolTip": "FastFood.Repository\\DbInitializer\\DbInitializer.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAYwDQAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T06:24:38.094Z",
+              "WhenOpened": "2024-10-12T07:21:48.927Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IDbInitializer.cs",
+              "DocumentMoniker": "D:\\Projects\\MVC\\FastFood\\FastFood.Repository\\DbInitializer\\IDbInitializer.cs",
+              "RelativeDocumentMoniker": "FastFood.Repository\\DbInitializer\\IDbInitializer.cs",
+              "ToolTip": "D:\\Projects\\MVC\\FastFood\\FastFood.Repository\\DbInitializer\\IDbInitializer.cs",
+              "RelativeToolTip": "FastFood.Repository\\DbInitializer\\IDbInitializer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T07:21:46.858Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Register.cshtml",
-              "DocumentMoniker": "D:\\Projects\\MVC\\FastFood\\FastFood\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
-              "RelativeDocumentMoniker": "FastFood\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
-              "ToolTip": "D:\\Projects\\MVC\\FastFood\\FastFood\\Areas\\Identity\\Pages\\Account\\Register.cshtml*",
-              "RelativeToolTip": "FastFood\\Areas\\Identity\\Pages\\Account\\Register.cshtml*",
-              "ViewState": "AQIAAFUAAAAAAAAAAAAqwGYAAAAUAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-12T06:15:51.174Z",
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Projects\\MVC\\FastFood\\FastFood\\appsettings.json",
+              "RelativeDocumentMoniker": "FastFood\\appsettings.json",
+              "ToolTip": "D:\\Projects\\MVC\\FastFood\\FastFood\\appsettings.json*",
+              "RelativeToolTip": "FastFood\\appsettings.json*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-12T07:12:23.362Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\Projects\\MVC\\FastFood\\FastFood\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "FastFood\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\Projects\\MVC\\FastFood\\FastFood\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "FastFood\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAACEAAAAAAAAAAAAAACwAAAApAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-12T06:06:48.094Z",
-              "EditorCaption": ""
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Projects\\MVC\\FastFood\\FastFood\\Program.cs",
+              "RelativeDocumentMoniker": "FastFood\\Program.cs",
+              "ToolTip": "D:\\Projects\\MVC\\FastFood\\FastFood\\Program.cs",
+              "RelativeToolTip": "FastFood\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T07:12:21.794Z"
             }
           ]
         }
