@@ -293,3 +293,5 @@ D:\Projects\MVC\FastFood\FastFood\bin\Debug\net8.0\Microsoft.Extensions.Dependen
 D:\Projects\MVC\FastFood\FastFood\bin\Debug\net8.0\System.Formats.Asn1.dll
 D:\Projects\MVC\FastFood\FastFood\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.Facebook.dll
 D:\Projects\MVC\FastFood\FastFood\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.MicrosoftAccount.dll
+D:\Projects\MVC\FastFood\FastFood\bin\Debug\net8.0\DotNetEnv.dll
+D:\Projects\MVC\FastFood\FastFood\bin\Debug\net8.0\Sprache.dll
