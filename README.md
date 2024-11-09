@@ -1,4 +1,4 @@
-Technologies: C#, LINQ, SQL, ASPNETCORE, RESTFUL API, Entity frame work core, HTML, CSS, JavaScript, bootstrap
+Technologies: C#, LINQ, SQL, ASPNETCORE, RESTFUL API, Entity framework core, HTML, CSS, JavaScript, bootstrap
 
 Description: "application with ASP.NET MVC, integrating Facebook and Microsoft login, Stripe for payments, and role-based access with user, Manager, and admin roles.
               Utilized the Unit of Work repository pattern for efficient data handling Features include a responsive item catalog,
